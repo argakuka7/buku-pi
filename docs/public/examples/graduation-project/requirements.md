@@ -2,7 +2,7 @@
 
 ## Proyek
 
-- Repositori latihan: `<URL-repositori-latihan>`
+- Repositori latihan: `https://github.com/akun-anda/buku-pi`
 - Teknologi: VitePress
 - Cara kerja: dikerjakan setelah meng-clone repositori secara lokal; tanpa deploy, tanpa commit,
   tanpa push.

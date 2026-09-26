@@ -2,7 +2,7 @@
 
 ## Project
 
-- Practice repository: `<URL-repositori-latihan>`
+- Practice repository: `https://github.com/your-account/buku-pi`
 - Technology: VitePress
 - How to work: work after cloning the repository locally; no deploy, no commit, no push.
 
