@@ -27,7 +27,7 @@ Di macOS, jalankan di terminal biasa:
 ```bash
 mkdir -p ~/Downloads/pi-practice/input ~/Downloads/pi-practice/output
 cd ~/Downloads/pi-practice
-curl -fL https://pi-bluebook-id.pages.dev/examples/first-task/meeting-notes.md \
+curl -fL https://buku-pi-dariargakuka.netlify.app/examples/first-task/meeting-notes.md \
   -o input/notulen-rapat.md
 shasum -a 256 input/notulen-rapat.md > input-before.sha256
 test ! -e output/daftar-tindakan.md && echo "PASS: output belum ada"

@@ -17,7 +17,7 @@ Dokumen ini menjelaskan pintu masuk teknis, batas perubahan, dan pemeriksaan seb
 | Memeriksa tautan & aset | `npm run check:content` |
 | Menyelaraskan label navigasi | `npm run check:consistency -- --fix` |
 | Memeriksa anchor hasil build | `npm run docs:build && npm run check:pages` |
-| Merilis | `npm run deploy` (Cloudflare Workers, lihat `wrangler.jsonc`) |
+| Merilis | `npm run deploy` (Netlify, lihat `netlify.toml`) |
 
 ## Batas perubahan
 

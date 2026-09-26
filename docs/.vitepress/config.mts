@@ -4,7 +4,7 @@ import { nav as navEN, sidebar as sidebarEN } from './config/navigation.en.mjs'
 import { miniSearch } from './config/search.mjs'
 
 // URL situs bisa dioverride lewat env saat deploy: PI_SITE_URL=https://domain-anda.com
-const siteUrl = (process.env.PI_SITE_URL ?? 'https://pi-bluebook-id.pages.dev').replace(/\/$/, '')
+const siteUrl = (process.env.PI_SITE_URL ?? 'https://buku-pi-dariargakuka.netlify.app').replace(/\/$/, '')
 const ogImageUrl = `${siteUrl}/og-image.png`
 
 // Pengelola edisi Bahasa Indonesia/English (identitas terbitan, bukan penulis karya asli).

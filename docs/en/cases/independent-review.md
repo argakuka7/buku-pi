@@ -24,7 +24,7 @@ This case study uses two named, read-only Pi sessions to practice the structure 
 ```bash
 cd ~/Downloads/pi-practice
 mkdir -p input reviews
-curl -fL https://pi-bluebook-id.pages.dev/en/examples/first-task/meeting-notes.md \
+curl -fL https://buku-pi-dariargakuka.netlify.app/en/examples/first-task/meeting-notes.md \
   -o input/notulen-rapat.md
 shasum -a 256 input/notulen-rapat.md > input-before.sha256
 ```

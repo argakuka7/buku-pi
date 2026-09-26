@@ -27,10 +27,10 @@ Ketiga materi adalah teks fiktif yang singkat; templat progres memisahkan dengan
 ```bash
 cd ~/Downloads/pi-practice
 mkdir -p long-task/source long-task/output
-curl -fL https://pi-bluebook-id.pages.dev/examples/long-task/source/article-a.md -o long-task/source/article-a.md
-curl -fL https://pi-bluebook-id.pages.dev/examples/long-task/source/article-b.md -o long-task/source/article-b.md
-curl -fL https://pi-bluebook-id.pages.dev/examples/long-task/source/article-c.md -o long-task/source/article-c.md
-curl -fL https://pi-bluebook-id.pages.dev/examples/long-task/progress-template.md -o long-task/progress.md
+curl -fL https://buku-pi-dariargakuka.netlify.app/examples/long-task/source/article-a.md -o long-task/source/article-a.md
+curl -fL https://buku-pi-dariargakuka.netlify.app/examples/long-task/source/article-b.md -o long-task/source/article-b.md
+curl -fL https://buku-pi-dariargakuka.netlify.app/examples/long-task/source/article-c.md -o long-task/source/article-c.md
+curl -fL https://buku-pi-dariargakuka.netlify.app/examples/long-task/progress-template.md -o long-task/progress.md
 find long-task -type f -print
 ```
 

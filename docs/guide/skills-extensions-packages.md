@@ -48,7 +48,7 @@ Di terminal biasa, masuk ke `pi-practice`, lalu unduh file pengajaran:
 
 ```bash
 mkdir -p bluebook-examples/action-list-review
-curl -fL https://pi-bluebook-id.pages.dev/examples/skill/action-list-review/SKILL.md \
+curl -fL https://buku-pi-dariargakuka.netlify.app/examples/skill/action-list-review/SKILL.md \
   -o bluebook-examples/action-list-review/SKILL.md
 ```
 

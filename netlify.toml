@@ -1,0 +1,25 @@
+# Deploy Netlify untuk situs dua bahasa PI BLUEBOOK (edisi Argakuka).
+#
+# Publish dir wajib menunjuk hasil build VitePress; kalau tidak, Netlify menerbitkan
+# akar repositori dan semua URL menghasilkan 404.
+
+[build]
+  command = "npm run check"
+  publish = "docs/.vitepress/dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+  # Dipakai untuk canonical, hreflang, og:url, dan sitemap. Ganti bila memakai domain sendiri.
+  PI_SITE_URL = "https://buku-pi-dariargakuka.netlify.app"
+
+# Aset ber-hash aman di-cache lama; HTML dibiarkan selalu divalidasi ulang.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

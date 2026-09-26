@@ -132,35 +132,38 @@ diverifikasi dengan model vision (dibaca ulang lalu dibandingkan dengan label ya
 
 ## Deploy
 
-Konfigurasi Cloudflare Workers/Pages sudah disiapkan di `wrangler.jsonc`:
+Situs diterbitkan lewat **Netlify**; konfigurasinya ada di `netlify.toml`:
+
+| Setelan | Nilai |
+| --- | --- |
+| Build command | `npm run check` (build + seluruh pemeriksaan mutu) |
+| Publish directory | `docs/.vitepress/dist` |
+| Node | 22 |
+
+Kalau publish directory tidak diarahkan ke `docs/.vitepress/dist`, Netlify menerbitkan akar
+repositori dan **semua URL menghasilkan 404**.
+
+URL kanonik situs diambil dari env `PI_SITE_URL` (canonical, `og:url`, sitemap, hreflang). Nilai
+bawaan di `docs/.vitepress/config.mts` sudah diisi domain yang sama, jadi build biasa pun benar.
+
+Deploy manual dari terminal (perlu `netlify login` sekali saja):
 
 ```bash
-npm run deploy:dry-run   # uji tanpa mengunggah
-npm run deploy           # unggah
+npm run deploy          # produksi
+npm run deploy:preview  # pratinjau draft
 ```
-
-URL kanonik situs diambil dari env `PI_SITE_URL` saat build (dipakai untuk canonical, `og:url`,
-sitemap, dan hreflang). Contoh:
-
-```bash
-PI_SITE_URL=https://bluebook.example.com npm run docs:build
-```
-
-Bila tidak diisi, nilai bawaan di `docs/.vitepress/config.mts` yang dipakai. Ganti URL tersebut
-sebelum deploy sungguhan agar sitemap dan canonical tidak menunjuk domain contoh.
 
 **Dua locale:** URL yang sama dipakai untuk canonical/hreflang kedua edisi (`/` untuk Indonesia,
-`/en/` untuk English), jadi `PI_SITE_URL` berlaku untuk keduanya. Perintah `curl` contoh pada
-edisi English mengunduh dari `…/en/examples/…`.
+`/en/` untuk English), jadi `PI_SITE_URL` berlaku untuk keduanya.
 
-**Penting:** perintah `curl` di dalam pelajaran mengunduh berkas contoh dari
-`https://pi-bluebook-id.pages.dev/examples/…`. Bila Anda deploy ke domain lain, ganti domain pada
-perintah tersebut agar pembaca mengunduh berkas contoh versi Bahasa Indonesia, bukan situs sumber:
+Perintah `curl` di dalam pelajaran mengunduh berkas contoh dari domain yang sama. Bila nanti
+memakai domain sendiri, ubah `PI_SITE_URL` di `netlify.toml`, nilai bawaan di
+`docs/.vitepress/config.mts`, lalu:
 
 ```bash
-grep -rl "pi-bluebook-id.pages.dev/examples" docs | xargs sed -i '' 's|pi-bluebook-id.pages.dev|domain-anda.com|g'
+grep -rl "buku-pi-dariargakuka.netlify.app" docs \
+  | xargs sed -i '' 's|buku-pi-dariargakuka.netlify.app|domain-anda.com|g'
 ```
-
 ## Struktur proyek
 
 ```

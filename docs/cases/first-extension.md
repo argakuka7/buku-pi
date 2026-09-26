@@ -24,7 +24,7 @@ Kode ini tidak membaca atau menulis file dan tidak mengakses jaringan, hanya men
 ```bash
 cd ~/Downloads/pi-practice
 mkdir -p bluebook-examples
-curl -fL https://pi-bluebook-id.pages.dev/examples/extension/bluebook-check.ts \
+curl -fL https://buku-pi-dariargakuka.netlify.app/examples/extension/bluebook-check.ts \
   -o bluebook-examples/bluebook-check.ts
 sed -n '1,160p' bluebook-examples/bluebook-check.ts
 ```

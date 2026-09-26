@@ -38,7 +38,7 @@ If either `mkdir` shows `File exists`, do not continue yet. That means an old ex
 Run the following command in the current practice directory to save the practice material directly into `input`.
 
 ```bash
-curl -fL https://pi-bluebook-id.pages.dev/en/examples/first-task/meeting-notes.md \
+curl -fL https://buku-pi-dariargakuka.netlify.app/en/examples/first-task/meeting-notes.md \
   -o input/notulen-rapat.md
 ls input
 sed -n '1,12p' input/notulen-rapat.md

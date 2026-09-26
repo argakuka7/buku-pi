@@ -8,7 +8,7 @@ body:
     attributes:
       label: Halaman atau bab
       description: Isi tautan halaman atau judul bab.
-      placeholder: https://pi-bluebook-id.pages.dev/guide/...
+      placeholder: https://buku-pi-dariargakuka.netlify.app/guide/...
     validations:
       required: true
   - type: textarea

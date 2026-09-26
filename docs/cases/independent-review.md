@@ -24,7 +24,7 @@ Studi kasus ini memakai dua sesi Pi bernama yang bersifat hanya-baca untuk melat
 ```bash
 cd ~/Downloads/pi-practice
 mkdir -p input reviews
-curl -fL https://pi-bluebook-id.pages.dev/examples/first-task/meeting-notes.md \
+curl -fL https://buku-pi-dariargakuka.netlify.app/examples/first-task/meeting-notes.md \
   -o input/notulen-rapat.md
 shasum -a 256 input/notulen-rapat.md > input-before.sha256
 ```

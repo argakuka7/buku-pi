@@ -3,7 +3,7 @@ import path from 'node:path'
 
 const distDir = path.resolve('docs/.vitepress/dist')
 // Situs punya dua locale: Indonesia di root, English di /en/.
-const siteUrl = (process.env.PI_SITE_URL ?? 'https://pi-bluebook-id.pages.dev').replace(/\/$/, '')
+const siteUrl = (process.env.PI_SITE_URL ?? 'https://buku-pi-dariargakuka.netlify.app').replace(/\/$/, '')
 const sourceSiteUrl = 'https://pi.xiaomovps.com'
 
 const requiredAssets = [

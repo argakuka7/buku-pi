@@ -19,8 +19,8 @@ Jalankan di terminal biasa; macOS, Linux, dan Windows Git Bash semuanya bisa dip
 mkdir ~/pi-content-workflow
 cd ~/pi-content-workflow
 mkdir source output
-curl -fL https://pi-bluebook-id.pages.dev/examples/content-workflow/confirmed-brief.md -o source/confirmed-brief.md
-curl -fL https://pi-bluebook-id.pages.dev/examples/content-workflow/old-note.md -o source/old-note.md
+curl -fL https://buku-pi-dariargakuka.netlify.app/examples/content-workflow/confirmed-brief.md -o source/confirmed-brief.md
+curl -fL https://buku-pi-dariargakuka.netlify.app/examples/content-workflow/old-note.md -o source/old-note.md
 cp source/confirmed-brief.md confirmed-before.txt
 cp source/old-note.md old-before.txt
 ```

@@ -27,10 +27,10 @@ All three materials are short fictional texts; the progress template clearly sep
 ```bash
 cd ~/Downloads/pi-practice
 mkdir -p long-task/source long-task/output
-curl -fL https://pi-bluebook-id.pages.dev/en/examples/long-task/source/article-a.md -o long-task/source/article-a.md
-curl -fL https://pi-bluebook-id.pages.dev/en/examples/long-task/source/article-b.md -o long-task/source/article-b.md
-curl -fL https://pi-bluebook-id.pages.dev/en/examples/long-task/source/article-c.md -o long-task/source/article-c.md
-curl -fL https://pi-bluebook-id.pages.dev/en/examples/long-task/progress-template.md -o long-task/progress.md
+curl -fL https://buku-pi-dariargakuka.netlify.app/en/examples/long-task/source/article-a.md -o long-task/source/article-a.md
+curl -fL https://buku-pi-dariargakuka.netlify.app/en/examples/long-task/source/article-b.md -o long-task/source/article-b.md
+curl -fL https://buku-pi-dariargakuka.netlify.app/en/examples/long-task/source/article-c.md -o long-task/source/article-c.md
+curl -fL https://buku-pi-dariargakuka.netlify.app/en/examples/long-task/progress-template.md -o long-task/progress.md
 find long-task -type f -print
 ```
 

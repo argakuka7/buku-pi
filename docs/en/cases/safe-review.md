@@ -24,9 +24,9 @@ In an ordinary terminal, go into `pi-practice`, then save both files into `safet
 cd ~/Downloads/pi-practice
 pwd
 mkdir -p safety-review
-curl -fL https://pi-bluebook-id.pages.dev/en/examples/safety/review-brief.md \
+curl -fL https://buku-pi-dariargakuka.netlify.app/en/examples/safety/review-brief.md \
   -o safety-review/review-brief.md
-curl -fL https://pi-bluebook-id.pages.dev/en/examples/safety/plan-template.md \
+curl -fL https://buku-pi-dariargakuka.netlify.app/en/examples/safety/plan-template.md \
   -o safety-review/plan-template.md
 ```
 

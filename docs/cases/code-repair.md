@@ -18,8 +18,8 @@ Jalankan di terminal biasa; macOS, Linux, dan Windows Git Bash semuanya dapat me
 ```bash
 mkdir ~/pi-code-repair
 cd ~/pi-code-repair
-curl -fL https://pi-bluebook-id.pages.dev/examples/code-repair/action-list.mjs -o action-list.mjs
-curl -fL https://pi-bluebook-id.pages.dev/examples/code-repair/action-list.test.mjs -o action-list.test.mjs
+curl -fL https://buku-pi-dariargakuka.netlify.app/examples/code-repair/action-list.mjs -o action-list.mjs
+curl -fL https://buku-pi-dariargakuka.netlify.app/examples/code-repair/action-list.test.mjs -o action-list.test.mjs
 node --test action-list.test.mjs
 ```
 

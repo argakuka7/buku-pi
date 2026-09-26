@@ -50,7 +50,7 @@ Keluar dari Pi, lalu di terminal biasa masuk ke `pi-practice` dan jalankan:
 
 ```bash
 mkdir -p bluebook-examples
-curl -fL https://pi-bluebook-id.pages.dev/examples/extension/bluebook-check.ts \
+curl -fL https://buku-pi-dariargakuka.netlify.app/examples/extension/bluebook-check.ts \
   -o bluebook-examples/bluebook-check.ts
 ```
 

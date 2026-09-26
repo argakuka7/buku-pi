@@ -18,8 +18,8 @@ Run in an ordinary terminal; macOS, Linux, and Windows Git Bash can all use the 
 ```bash
 mkdir ~/pi-code-repair
 cd ~/pi-code-repair
-curl -fL https://pi-bluebook-id.pages.dev/en/examples/code-repair/action-list.mjs -o action-list.mjs
-curl -fL https://pi-bluebook-id.pages.dev/en/examples/code-repair/action-list.test.mjs -o action-list.test.mjs
+curl -fL https://buku-pi-dariargakuka.netlify.app/en/examples/code-repair/action-list.mjs -o action-list.mjs
+curl -fL https://buku-pi-dariargakuka.netlify.app/en/examples/code-repair/action-list.test.mjs -o action-list.test.mjs
 node --test action-list.test.mjs
 ```
 

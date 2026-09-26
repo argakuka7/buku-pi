@@ -19,8 +19,8 @@ Run this in an ordinary terminal; macOS, Linux, and Windows Git Bash all work:
 mkdir ~/pi-content-workflow
 cd ~/pi-content-workflow
 mkdir source output
-curl -fL https://pi-bluebook-id.pages.dev/en/examples/content-workflow/confirmed-brief.md -o source/confirmed-brief.md
-curl -fL https://pi-bluebook-id.pages.dev/en/examples/content-workflow/old-note.md -o source/old-note.md
+curl -fL https://buku-pi-dariargakuka.netlify.app/en/examples/content-workflow/confirmed-brief.md -o source/confirmed-brief.md
+curl -fL https://buku-pi-dariargakuka.netlify.app/en/examples/content-workflow/old-note.md -o source/old-note.md
 cp source/confirmed-brief.md confirmed-before.txt
 cp source/old-note.md old-before.txt
 ```

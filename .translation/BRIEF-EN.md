@@ -32,7 +32,7 @@ Sumber = berkas Bahasa Indonesia. Target = berkas English di `docs/en/<path yang
    Anker eksplisit `{#foo}` pada judul TIDAK diubah — kalau judul punya `{#foo}`, tautan tetap memakai `#foo`.
 3. Diagram: `/images/diagrams/*.svg` → `/en/images/diagrams/*.svg` (versi English disiapkan terpisah).
    Gambar lain (foto/screenshot) tetap `/images/...`.
-4. URL unduhan contoh: `https://pi-bluebook-id.pages.dev/examples/` → `https://pi-bluebook-id.pages.dev/en/examples/`.
+4. URL unduhan contoh: `https://buku-pi-dariargakuka.netlify.app/examples/` → `https://buku-pi-dariargakuka.netlify.app/en/examples/`.
 5. Tautan eksternal (pi.dev, GitHub, creativecommons, dsb.) tidak diubah.
 
 ## Batas berkas

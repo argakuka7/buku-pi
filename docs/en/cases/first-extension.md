@@ -24,7 +24,7 @@ This code does not read or write files and does not access the network; it only 
 ```bash
 cd ~/Downloads/pi-practice
 mkdir -p bluebook-examples
-curl -fL https://pi-bluebook-id.pages.dev/en/examples/extension/bluebook-check.ts \
+curl -fL https://buku-pi-dariargakuka.netlify.app/en/examples/extension/bluebook-check.ts \
   -o bluebook-examples/bluebook-check.ts
 sed -n '1,160p' bluebook-examples/bluebook-check.ts
 ```

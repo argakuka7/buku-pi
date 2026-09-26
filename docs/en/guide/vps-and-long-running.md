@@ -97,10 +97,10 @@ cd ~/Downloads/pi-practice
 pwd
 mkdir -p long-task/source long-task/output
 for name in article-a article-b article-c; do
-  curl -fL "https://pi-bluebook-id.pages.dev/en/examples/long-task/source/${name}.md" \
+  curl -fL "https://buku-pi-dariargakuka.netlify.app/en/examples/long-task/source/${name}.md" \
     -o "long-task/source/${name}.md"
 done
-curl -fL https://pi-bluebook-id.pages.dev/en/examples/long-task/progress-template.md \
+curl -fL https://buku-pi-dariargakuka.netlify.app/en/examples/long-task/progress-template.md \
   -o long-task/progress.md
 ```
 

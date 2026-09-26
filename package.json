@@ -13,16 +13,15 @@
     "check:pages": "node scripts/check-built-pages.mjs",
     "sync:pi-releases": "node scripts/sync-pi-releases.mjs",
     "check": "npm run check:content && npm run check:consistency && npm run docs:build && npm run check:seo && npm run check:pages && npm run check:i18n",
-    "deploy:dry-run": "npm run check && wrangler deploy --dry-run",
-    "deploy": "npm run check && wrangler deploy",
+    "deploy": "npm run check && npx --yes netlify-cli deploy --prod --dir=docs/.vitepress/dist",
     "check:consistency": "node scripts/check-consistency.mjs",
     "check:i18n": "node scripts/check-i18n.mjs",
-    "serve:dist": "node scripts/serve-dist.mjs"
+    "serve:dist": "node scripts/serve-dist.mjs",
+    "deploy:preview": "npm run check && npx --yes netlify-cli deploy --dir=docs/.vitepress/dist"
   },
   "devDependencies": {
     "minisearch": "7.2.0",
-    "vitepress": "1.6.4",
-    "wrangler": "4.130.0"
+    "vitepress": "1.6.4"
   },
   "description": "Pi Bluebook edisi Bahasa Indonesia: jalur belajar Pi Coding Agent dari instalasi sampai alur kerja agent jangka panjang."
 }

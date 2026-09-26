@@ -25,9 +25,9 @@ Siapkan direktori latihan terpisah di terminal biasa; Anda tidak diwajibkan meny
 ```bash
 cd ~/Downloads/pi-practice
 mkdir -p input output bluebook-examples/action-list-review
-curl -fL https://pi-bluebook-id.pages.dev/examples/first-task/meeting-notes.md \
+curl -fL https://buku-pi-dariargakuka.netlify.app/examples/first-task/meeting-notes.md \
   -o input/notulen-rapat.md
-curl -fL https://pi-bluebook-id.pages.dev/examples/skill/action-list-review/SKILL.md \
+curl -fL https://buku-pi-dariargakuka.netlify.app/examples/skill/action-list-review/SKILL.md \
   -o bluebook-examples/action-list-review/SKILL.md
 shasum -a 256 input/notulen-rapat.md > input-before.sha256
 sed -n '1,160p' bluebook-examples/action-list-review/SKILL.md

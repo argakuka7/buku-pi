@@ -38,7 +38,7 @@ Jika salah satu `mkdir` menampilkan `File exists`, jangan lanjut dulu. Itu menan
 Jalankan perintah berikut di direktori latihan saat ini untuk menyimpan materi latihan langsung ke `input`.
 
 ```bash
-curl -fL https://pi-bluebook-id.pages.dev/examples/first-task/meeting-notes.md \
+curl -fL https://buku-pi-dariargakuka.netlify.app/examples/first-task/meeting-notes.md \
   -o input/notulen-rapat.md
 ls input
 sed -n '1,12p' input/notulen-rapat.md
