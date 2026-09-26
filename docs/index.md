@@ -18,7 +18,7 @@ description: Tutorial sistematis Pi Coding Agent untuk pemula, mulai dari instal
       </div>
     </div>
     <aside class="bluebook-edition" aria-label="Ringkasan buku">
-      <div class="bluebook-edition__mark" aria-hidden="true">P<span>.</span></div>
+      <div class="bluebook-edition__mark" aria-hidden="true"><svg viewBox="0 0 120 120" role="presentation" focusable="false"><path fill="#f8f5ed" d="M54 25c-4-7-13-10-23-10-8 0-13 2-13 7v57c0-4 5-7 13-7 10 0 19 4 23 11z"/><path fill="#f8f5ed" d="M66 25c4-7 13-10 23-10 8 0 13 2 13 7v57c0-4-5-7-13-7-10 0-19 4-23 11z"/><path fill="none" stroke="#26313a" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" d="M73 42l11 11-11 11"/><rect x="87" y="57" width="12" height="6.5" rx="1.5" fill="#26313a"/><circle cx="33" cy="36" r="5.8" fill="#4f90aa"/></svg></div>
       <p class="bluebook-edition__label">CURRENT EDITION</p>
       <dl>
         <div><dt>Kursus utama</dt><dd>14 pelajaran</dd></div>

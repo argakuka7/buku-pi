@@ -134,15 +134,14 @@
 
 .bluebook-edition__mark {
   margin-bottom: auto;
-  font-family: var(--pi-font-serif);
-  font-size: 7.4rem;
-  font-weight: 700;
-  line-height: 0.8;
-  letter-spacing: -0.08em;
+  width: 122px;
+  max-width: 46%;
 }
 
-.bluebook-edition__mark span {
-  color: var(--pi-blue);
+.bluebook-edition__mark svg {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .bluebook-edition__label {
@@ -556,7 +555,7 @@
 
   .bluebook-edition__mark {
     grid-row: 1 / 4;
-    font-size: 5rem;
+    width: 96px;
   }
 
   .bluebook-edition__label {
