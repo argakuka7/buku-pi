@@ -35,11 +35,11 @@ Selalu bekerja di repositori latihan hasil klon baru. Sepanjang proses jangan me
 
 ## Tahap 0 · Siapkan salinan terisolasi
 
-Jalankan di terminal biasa. Ganti `akun-anda` dengan nama akun GitHub Anda lalu jalankan blok berikut — repositori latihan bernama `buku-pi`; bila Anda memakai salinan lokal, cukup ganti baris `git clone` dengan mengarahkannya ke salinan itu:
+Jalankan di terminal biasa. Blok berikut memakai repositori latihan `buku-pi`; bila Anda memakai salinan lokal, cukup arahkan baris `git clone` ke salinan itu:
 
 ```bash
 cd ~/Downloads
-git clone https://github.com/akun-anda/buku-pi.git pi-bluebook-graduation
+git clone https://github.com/argakuka7/buku-pi.git pi-bluebook-graduation
 cd pi-bluebook-graduation
 git checkout --detach ea68e5f   # ganti dengan commit pada salinan Anda bila hash ini tidak ada
 npm ci
