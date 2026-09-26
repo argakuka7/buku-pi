@@ -35,13 +35,13 @@ Always work in a freshly cloned practice repository. Throughout the process do n
 
 ## Stage 0 · Prepare an Isolated Copy
 
-Run in an ordinary terminal. The example below uses a clone of the source repository as the practice material:
+Run in an ordinary terminal. Replace `<URL-repositori-latihan>` with the URL of your own copy of this project's repository, then run the block below:
 
 ```bash
 cd ~/Downloads
 git clone <URL-repositori-latihan> pi-bluebook-graduation
 cd pi-bluebook-graduation
-git checkout --detach ea68e5f
+git checkout --detach ea68e5f   # use a commit from your own copy if this hash is not there
 npm ci
 npm run check:content
 git rev-parse HEAD
