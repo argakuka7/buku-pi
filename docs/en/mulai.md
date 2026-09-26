@@ -1,6 +1,6 @@
 ---
 title: Learning Map · 5 Modules, 14 Lessons
-description: "The whole Bluebook Pi path on one page: 5 modules, 14 lessons, time estimates, completion signs, and entry links for every part."
+description: "The whole Buku Pi path on one page: 5 modules, 14 lessons, time estimates, completion signs, and entry links for every part."
 prev: false
 next: false
 ---
@@ -31,7 +31,7 @@ The estimates below are rough figures for a single pass; download speed, browser
 
 ## Opening · Why it is worth reading
 
-1. [Introduction: Why read this Pi Bluebook](/en/guide/introduction)
+1. [Introduction: Why read this Buku Pi guide](/en/guide/introduction)
 2. [Ten lasting judgments from 98 tweets](/en/guide/lasting-principles)
 3. [Guidelines and notes for the 2026 open learning edition](/en/guide/edition-2026)
 

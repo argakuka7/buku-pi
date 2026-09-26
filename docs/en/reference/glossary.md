@@ -13,7 +13,7 @@ next:
 
 # Glossary of Popular AI and Agent Terms
 
-This is not an AI encyclopedia trying to be “big and complete”. The first edition explains only the 20 terms that keep recurring in the main Pi Bluebook content and the 98 learning notes, and that directly shape decisions when using Pi.
+This is not an AI encyclopedia trying to be “big and complete”. The first edition explains only the 20 terms that keep recurring in the main Buku Pi content and the 98 learning notes, and that directly shape decisions when using Pi.
 
 Every term starts with a plain-language explanation, then says what it means inside Pi. When you need practice, continue to the related lesson; details about versions and product limits were verified on **2026-09-11**.
 
@@ -67,7 +67,7 @@ Every term starts with a plain-language explanation, then says what it means ins
 
 **In plain language:** An Agent Runtime is the environment and lifecycle layer that actually makes an Agent run, with attention to task status, the execution process, how it recovers, and how it is called by other programs over the long term.
 
-**What it means inside Pi:** Pi has runtime components such as Session, RPC, SDK, and extensible events, but “Agent Runtime” is not the name of a finished standalone product feature in the official documentation today. The Bluebook uses this term to understand how Pi stretches from a single terminal interaction to a long-term way of working that can be embedded and recovered; it does not mean that running `pi` automatically gives you a persistent background process, scheduled tasks, or a guarantee of unattended safety.
+**What it means inside Pi:** Pi has runtime components such as Session, RPC, SDK, and extensible events, but “Agent Runtime” is not the name of a finished standalone product feature in the official documentation today. The Buku Pi uses this term to understand how Pi stretches from a single terminal interaction to a long-term way of working that can be embedded and recovered; it does not mean that running `pi` automatically gives you a persistent background process, scheduled tasks, or a guarantee of unattended safety.
 
 **Related:** [Session](#session) · [Agent Loop](#agent-loop) · [Long-running tasks and VPS](/en/guide/vps-and-long-running)
 

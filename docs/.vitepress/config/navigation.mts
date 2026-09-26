@@ -79,7 +79,7 @@ export const nav = [
 export const sidebar = {
       '/guide/': [
         {
-          text: 'Bluebook',
+          text: 'Buku Pi',
           collapsed: true,
           items: [
             { text: 'Daftar isi lengkap', link: '/guide/' },
@@ -158,7 +158,7 @@ export const sidebar = {
           collapsed: true,
           items: [
             { text: 'Kumpulan studi kasus & cara pakainya', link: '/cases/' },
-            { text: 'Daftar isi lengkap Bluebook', link: '/guide/' }
+            { text: 'Daftar isi lengkap Buku Pi', link: '/guide/' }
           ]
         },
         {
@@ -186,7 +186,7 @@ export const sidebar = {
           text: 'Penutup terpadu',
           collapsed: true,
           items: [
-            { text: 'CASE 08 · Proyek akhir Bluebook Pi', link: '/cases/graduation-project' }
+            { text: 'CASE 08 · Proyek akhir Buku Pi', link: '/cases/graduation-project' }
           ]
         },
         {
@@ -265,7 +265,7 @@ export const sidebar = {
           text: 'Lanjut belajar',
           collapsed: true,
           items: [
-            { text: 'Daftar isi lengkap Bluebook', link: '/guide/' },
+            { text: 'Daftar isi lengkap Buku Pi', link: '/guide/' },
             { text: '8 studi kasus praktik', link: '/cases/' }
           ]
         }
@@ -334,7 +334,7 @@ export const sidebar = {
           ]
         },
         {
-          text: 'Kembali ke Bluebook',
+          text: 'Kembali ke Buku Pi',
           collapsed: true,
           items: [
             { text: 'Dari Prompt ke Agent Loop', link: '/guide/how-pi-works' },
@@ -347,7 +347,7 @@ export const sidebar = {
           text: 'Catatan belajar',
           collapsed: true,
           items: [
-            { text: 'Tulisan di luar Bluebook', link: '/journey/' },
+            { text: 'Tulisan di luar Buku Pi', link: '/journey/' },
             { text: 'Mengapa sesi & konteks tetap di tangan kita', link: '/journey/why-pi-keeps-context-editable' },
             { text: 'Arsip 98 tweet', link: '/tweets/' }
           ]
@@ -369,7 +369,7 @@ export const sidebar = {
           collapsed: true,
           items: [
             { text: 'Sepuluh penilaian yang masih berlaku', link: '/guide/lasting-principles' },
-            { text: 'Daftar isi lengkap Bluebook', link: '/guide/' }
+            { text: 'Daftar isi lengkap Buku Pi', link: '/guide/' }
           ]
         }
       ],
@@ -378,7 +378,7 @@ export const sidebar = {
           text: 'Catatan belajar',
           collapsed: true,
           items: [
-            { text: 'Tulisan di luar Bluebook', link: '/journey/' },
+            { text: 'Tulisan di luar Buku Pi', link: '/journey/' },
             { text: 'Mengapa sesi & konteks tetap di tangan kita', link: '/journey/why-pi-keeps-context-editable' },
             { text: 'Arsip 98 tweet', link: '/tweets/' }
           ]
@@ -400,7 +400,7 @@ export const sidebar = {
           collapsed: true,
           items: [
             { text: 'Sepuluh penilaian yang masih berlaku', link: '/guide/lasting-principles' },
-            { text: 'Daftar isi lengkap Bluebook', link: '/guide/' }
+            { text: 'Daftar isi lengkap Buku Pi', link: '/guide/' }
           ]
         }
       ]

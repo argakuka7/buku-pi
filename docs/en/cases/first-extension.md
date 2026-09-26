@@ -45,7 +45,7 @@ Once inside Pi, type:
 /bluebook-check
 ```
 
-The expected Pi interface notification is `"The Bluebook Extension has loaded; this command does not read or modify any files."`.
+The expected Pi interface notification is `"The Buku Pi Extension has loaded; this command does not read or modify any files."`.
 
 ![Illustration: Si Hitam attaches a module to the side of a machine and a bell rings, labelled Extension aktif and notifikasi.](/en/images/06-pi-hasil-extension.webp)
 

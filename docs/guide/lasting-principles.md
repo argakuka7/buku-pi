@@ -2,7 +2,7 @@
 title: Sepuluh penilaian yang tersisa dari 98 tweet
 description: Menyaring sepuluh penilaian yang masih berlaku hingga edisi belajar terbuka 2026 dari catatan belajar Pi.
 prev:
-  text: 'Pengantar: Mengapa membaca Bluebook Pi ini'
+  text: 'Pengantar: Mengapa membaca Buku Pi ini'
   link: /guide/introduction
 next:
   text: Pedoman dan keterangan edisi belajar terbuka 2026
@@ -87,4 +87,4 @@ Sepuluh penilaian di halaman ini akan ditinjau seiring edisi resmi; situs web da
 
 - [Pedoman dan keterangan edisi belajar terbuka 2026](/guide/edition-2026)
 - [Arsip asli 98 tweet](/tweets/)
-- [Alur utama Bluebook](/guide/)
+- [Alur utama Buku Pi](/guide/)

@@ -13,7 +13,7 @@ next:
 
 # Reference Guide
 
-This page is not meant to teach from scratch, and it does not require sequential reading. When you encounter a term, a capability, or an operational problem, enter from the matching topic; if this is your first time reading, start with [Introduction: Why read this Pi Bluebook](/en/guide/introduction), then continue along the [Bluebook main path](/en/guide/).
+This page is not meant to teach from scratch, and it does not require sequential reading. When you encounter a term, a capability, or an operational problem, enter from the matching topic; if this is your first time reading, start with [Introduction: Why read this Buku Pi guide](/en/guide/introduction), then continue along the [Buku Pi main path](/en/guide/).
 
 ::: info Read the explanation of this edition first
 [Ten assessments that still hold](/en/guide/lasting-principles) distinguishes the current conclusions from the original learning archive; [Guidelines and notes for the 2026 open learning edition](/en/guide/edition-2026) records the platform path, verification cut-off, maintenance rules, and copyright limits.
@@ -97,7 +97,7 @@ Command behavior can change between versions; this table was verified on 2026-09
 | `.pi/` | Settings, Extensions, Skills, and so on for the current project | Project resources are controlled by Project Trust |
 | `.agents/skills/` | Project Skills that can be discovered by multiple Agent tools | Project-level resources, their provenance needs to be checked first |
 | `AGENTS.md`, `CLAUDE.md` | Project context explanations | Built-in loading is not protected by the Project Trust refusal, can be turned off with `--no-context-files` |
-| `docs/public/` | Public download material for this Bluebook site | After the build it is copied to the site root path, do not store credentials |
+| `docs/public/` | Public download material for this Buku Pi site | After the build it is copied to the site root path, do not store credentials |
 
 ## Order of Troubleshooting
 

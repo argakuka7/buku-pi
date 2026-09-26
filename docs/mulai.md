@@ -1,6 +1,6 @@
 ---
 title: Peta Belajar · 5 Modul, 14 Pelajaran
-description: "Seluruh jalur Bluebook Pi dalam satu halaman: 5 modul, 14 pelajaran, estimasi waktu, tanda selesai, dan tautan masuk tiap bagian."
+description: "Seluruh jalur Buku Pi dalam satu halaman: 5 modul, 14 pelajaran, estimasi waktu, tanda selesai, dan tautan masuk tiap bagian."
 prev: false
 next: false
 ---
@@ -31,7 +31,7 @@ Estimasi di bawah adalah perkiraan kasar untuk satu kali jalan; kecepatan unduh,
 
 ## Pembuka · Kenali dulu alasan membacanya
 
-1. [Pengantar: Mengapa membaca Bluebook Pi ini](/guide/introduction)
+1. [Pengantar: Mengapa membaca Buku Pi ini](/guide/introduction)
 2. [Sepuluh penilaian yang tersisa dari 98 tweet](/guide/lasting-principles)
 3. [Pedoman dan keterangan edisi belajar terbuka 2026](/guide/edition-2026)
 

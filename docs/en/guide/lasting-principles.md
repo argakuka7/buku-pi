@@ -2,7 +2,7 @@
 title: Ten lasting judgments from 98 tweets
 description: Distilling the ten judgments that still hold as of the 2026 open learning edition from the Pi learning notes.
 prev:
-  text: 'Introduction: Why read this Pi Bluebook'
+  text: 'Introduction: Why read this Buku Pi guide'
   link: /en/guide/introduction
 next:
   text: Guidelines and notes for the 2026 open learning edition
@@ -87,4 +87,4 @@ The ten judgments on this page will be reviewed as official editions come out; t
 
 - [Guidelines and notes for the 2026 open learning edition](/en/guide/edition-2026)
 - [The original archive of 98 tweets](/en/tweets/)
-- [The Bluebook main flow](/en/guide/)
+- [The Buku Pi main flow](/en/guide/)

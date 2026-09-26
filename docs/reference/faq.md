@@ -61,7 +61,7 @@ Pi bertugas menghubungkan model, tool, Session, Context, dan direktori kerja, se
 
 *Diagram: model bertugas menilai, Pi bertugas mengubah penilaian itu menjadi pekerjaan yang dapat dijalankan, disimpan, dan diverifikasi.*
 
-**Baca lanjutan:** [Pi](/reference/glossary#pi) · [Agent Harness](/reference/glossary#agent-harness) · [Pengantar: Mengapa membaca Bluebook Pi ini](/guide/introduction)
+**Baca lanjutan:** [Pi](/reference/glossary#pi) · [Agent Harness](/reference/glossary#agent-harness) · [Pengantar: Mengapa membaca Buku Pi ini](/guide/introduction)
 
 ## Apa perbedaan Pi dan Pi Coding Agent? {#pi-vs-pi-coding-agent}
 
@@ -235,4 +235,4 @@ Begitu Anda mulai bekerja di dalam direktori, tool bawaan Pi dan Extension yang 
 
 ## Belum menemukan jawabannya?
 
-Gunakan dulu pencarian di situs dengan kata kunci bahasa Indonesia atau Inggris, misalnya “konteks / Context”, “pemadatan / Compaction”, “subagent / Sub-agent”. Jika pertanyaannya memerlukan langkah operasional lengkap, kembalilah ke [alur utama Bluebook](/guide/); jika pertanyaan itu berasal dari penggunaan nyata dan belum tercakup di halaman ini, jelaskan versi yang dipakai, lokasi tindakan, hasil yang diharapkan, dan gejala sebenarnya di kanal Issues repositori proyek.
+Gunakan dulu pencarian di situs dengan kata kunci bahasa Indonesia atau Inggris, misalnya “konteks / Context”, “pemadatan / Compaction”, “subagent / Sub-agent”. Jika pertanyaannya memerlukan langkah operasional lengkap, kembalilah ke [alur utama Buku Pi](/guide/); jika pertanyaan itu berasal dari penggunaan nyata dan belum tercakup di halaman ini, jelaskan versi yang dipakai, lokasi tindakan, hasil yang diharapkan, dan gejala sebenarnya di kanal Issues repositori proyek.

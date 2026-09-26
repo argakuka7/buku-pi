@@ -59,7 +59,7 @@ async function fetchText(url) {
   const response = await fetch(url, {
     headers: {
       Accept: 'text/plain',
-      'User-Agent': 'Pi-Bluebook-release-sync/1.0'
+      'User-Agent': 'Pi-Buku Pi-release-sync/1.0'
     }
   })
 

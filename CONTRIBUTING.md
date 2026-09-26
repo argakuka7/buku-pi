@@ -1,6 +1,6 @@
 # Panduan Kontribusi
 
-Terima kasih sudah membantu merapikan Pi Bluebook edisi Bahasa Indonesia. Laporan pembaca tentang
+Terima kasih sudah membantu merapikan Buku Pi edisi Bahasa Indonesia. Laporan pembaca tentang
 satu langkah yang tidak bisa diikuti sama berharganya dengan perbaikan kode.
 
 ## Melaporkan masalah

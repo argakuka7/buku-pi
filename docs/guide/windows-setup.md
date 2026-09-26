@@ -2,7 +2,7 @@
 title: 'Jalur Windows berbahasa Mandarin: pasang dan jalankan Pi'
 description: Pilih dulu di antara Git Bash native, PowerShell, dan WSL, lalu pasang dan jalankan Pi mengikuti jalur pemula Git Bash.
 prev:
-  text: Alur utama Bluebook
+  text: Alur utama Buku Pi
   link: /guide/
 next:
   text: Login akun, agar Pi bisa menjawab Anda
@@ -13,7 +13,7 @@ next:
 
 # Jalur Windows berbahasa Mandarin: pasang dan jalankan Pi
 
-Anda membuka Bluebook di komputer Windows, tetapi mendapati pelajaran 1 dan 2 berisi terminal Mac, pintasan `Command`, dan path `/Users/...`. Jangan mengubah perintah-perintah itu menjadi format Windows kata per kata, dan jangan mencampur Command Prompt, PowerShell, WSL, dan Git Bash sekaligus.
+Anda membuka Buku Pi di komputer Windows, tetapi mendapati pelajaran 1 dan 2 berisi terminal Mac, pintasan `Command`, dan path `/Users/...`. Jangan mengubah perintah-perintah itu menjadi format Windows kata per kata, dan jangan mencampur Command Prompt, PowerShell, WSL, dan Git Bash sekaligus.
 
 Jalur Mandarin ini menjelaskan dulu tiga lingkungan eksekusi di Windows, lalu mematok pemasangan pertama pada jalur Git Bash yang paling mudah direproduksi. Setelah lolos verifikasi halaman ini, langsung lanjut ke [Pelajaran 3: login dan pengaturan model](/guide/connect-model), lalu kembali ke alur utama bersama.
 
@@ -161,7 +161,7 @@ Pengoperasian pertama mungkin langsung memunculkan prompt login. Ini berarti Pi 
 
 Setelah keluar, Anda harus kembali ke Git Bash. Jalankan `pi` sekali lagi untuk memastikan bisa terbuka kembali; setelah itu Anda bisa `/quit` lagi atau lanjut ke pelajaran berikutnya.
 
-## 6. Cara mengikuti alur utama Bluebook selanjutnya
+## 6. Cara mengikuti alur utama Buku Pi selanjutnya
 
 Mulai pelajaran berikutnya, pengguna Windows tetap memakai Git Bash dan mengikuti rangkaian penggantian tetap ini:
 
@@ -172,7 +172,7 @@ Mulai pelajaran berikutnya, pengguna Windows tetap memakai Git Bash dan mengikut
 | `shasum -a 256` | `sha256sum` |
 | `Command+C` / `Command+V` | Menyalin di halaman web pakai `Ctrl+C`, menempel di Git Bash pakai `Shift+Insert` |
 
-Perintah latihan berikutnya seperti `curl`, `sed`, `find`, dan `test` tetap dijalankan di Git Bash. Saat Bluebook menulis “terminal biasa”, pengguna Windows harus memahaminya sebagai “Git Bash”.
+Perintah latihan berikutnya seperti `curl`, `sed`, `find`, dan `test` tetap dijalankan di Git Bash. Saat Buku Pi menulis “terminal biasa”, pengguna Windows harus memahaminya sebagai “Git Bash”.
 
 Pi juga menyediakan Tool `powershell` opsional, tetapi itu bukan prasyarat jalur pemula buku ini. Meskipun Tool tersebut diaktifkan, `!` dan `!!` di area editor Pi tetap memakai Bash. Selesaikan dulu satu jalur, baru putuskan apakah menambahkan Shell kedua.
 

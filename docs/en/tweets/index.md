@@ -2,7 +2,7 @@
 title: Tweet Learning Table of Contents
 description: A collection of 98 original Pi tweets, arranged into six learning stages.
 prev:
-  text: Written Outside the Bluebook
+  text: Written Outside Buku Pi
   link: /en/journey/
 next:
   text: Getting to know Pi out of curiosity
@@ -36,7 +36,7 @@ Models, versions, prices, and product statuses inside the tweets can change. Dat
 
 Extensions, Packages, Skills, and standalone clients scattered across many tweets have been tidied up separately into [plugin recommendations and a map of options](/en/plugins/). The recommendation page checks current sources and risks; this table of contents still keeps the original assessment from that time.
 
-Learning principles that came up repeatedly and have not been overturned after later practice have been filtered into [ten judgments left from 98 tweets](/en/guide/lasting-principles). That page holds the Bluebook's current conclusions; here we still keep the original wording, publication dates, and shifts in understanding, so the two do not overwrite each other.
+Learning principles that came up repeatedly and have not been overturned after later practice have been filtered into [ten judgments left from 98 tweets](/en/guide/lasting-principles). That page holds the Buku Pi's current conclusions; here we still keep the original wording, publication dates, and shifts in understanding, so the two do not overwrite each other.
 
 ::: info Rules for Arranging the Original Tweets
 The text comes from a personal archive of original tweets on Google Drive. On this site we preserve the publication time and the original sentences, while removing x.com addresses and t.co media short links. Images and videos from the original posts will be added once clearer material is available, rather than replaced with dead short links.

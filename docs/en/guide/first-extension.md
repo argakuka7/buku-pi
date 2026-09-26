@@ -70,7 +70,7 @@ pi --no-extensions -e ./bluebook-examples/bluebook-check.ts
 /bluebook-check
 ```
 
-You should see the interface notification “The Bluebook Extension is loaded; this command does not read or modify any files.” This proves the command is registered and its handler function ran successfully; it does not prove that desktop notifications, background tasks, or other Extension capabilities are available.
+You should see the interface notification “The Buku Pi Extension is loaded; this command does not read or modify any files.” This proves the command is registered and its handler function ran successfully; it does not prove that desktop notifications, background tasks, or other Extension capabilities are available.
 
 ![Illustration: Si Hitam attaches a module to the side of a machine as a bell rings, labelled Extension aktif and notifikasi.](/en/images/06-pi-hasil-extension.webp)
 

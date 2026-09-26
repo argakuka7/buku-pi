@@ -6,7 +6,7 @@ prev:
   text: Getting sub-Agents to share the roles
   link: /en/tweets/05-subagents-research
 next:
-  text: Written Outside the Bluebook
+  text: Written Outside Buku Pi
   link: /en/journey/
 ---
 

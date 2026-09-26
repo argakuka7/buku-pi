@@ -45,7 +45,7 @@ Setelah masuk ke Pi, ketik:
 /bluebook-check
 ```
 
-Pemberitahuan antarmuka Pi yang diharapkan muncul adalah `"Extension Bluebook sudah dimuat; perintah ini tidak membaca atau mengubah file apa pun."`.
+Pemberitahuan antarmuka Pi yang diharapkan muncul adalah `"Extension Buku Pi sudah dimuat; perintah ini tidak membaca atau mengubah file apa pun."`.
 
 ![Ilustrasi: Si Hitam memasang modul ke sisi mesin dan lonceng berbunyi, dengan label Extension aktif dan notifikasi](/images/06-pi-hasil-extension.webp)
 

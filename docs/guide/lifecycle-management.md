@@ -23,7 +23,7 @@ Sebelum memperbarui, Anda bisa membuka [Catatan pembaruan versi Pi](/releases/) 
 Menurut penjelasan resmi Pi saat ini, menguninstal Pi **tidak** otomatis menghapus `~/.pi/agent/`. Direktori ini bisa berisi informasi autentikasi, sesi, pengaturan, dan Package yang sudah terpasang. Melihat `pi: command not found` bukan bukti bahwa kredensial dan riwayat sudah hilang dari komputer.
 :::
 
-Halaman ini sekaligus mencakup installer resmi yang saat ini dipakai Bluebook dan jalur npm. Untuk memperbarui Pi itu sendiri, Anda selalu bisa memakai `pi update`; saat menguninstal, Anda harus kembali ke cara pemasangan awal Anda. Pengguna Windows, ketika melihat “terminal biasa”, tetap harus membuka Git Bash.
+Halaman ini sekaligus mencakup installer resmi yang saat ini dipakai Buku Pi dan jalur npm. Untuk memperbarui Pi itu sendiri, Anda selalu bisa memakai `pi update`; saat menguninstal, Anda harus kembali ke cara pemasangan awal Anda. Pengguna Windows, ketika melihat “terminal biasa”, tetap harus membuka Git Bash.
 
 ## Tentukan dulu apa yang ingin Anda selesaikan
 

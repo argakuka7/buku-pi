@@ -9,6 +9,6 @@
 | `context-session-compaction` | FAQ “Apa perbedaan Context dan Session?” | Setelah istilah populer “Context Window” | Membedakan riwayat lengkap, input ronde ini, file proyek, dan ringkasan pemadatan |
 | `skill-extension-package` | FAQ “Apa perbedaan Skill, Extension, dan Package?” | Setelah istilah populer “Package” | Menjelaskan metode, kemampuan runtime, dan wadah distribusi lewat jalur pilihan |
 | `project-trust-boundary` | FAQ “Apakah Project Trust adalah sandbox?” | Belum dipakai ulang | Membedakan gerbang pemuatan sumber daya proyek dan batas isolasi sistem operasi |
-| `graduation-project-flow` | CASE 08 “Proyek Kelulusan Bluebook Pi” | Belum dipakai ulang | Memperjelas tanggung jawab dan gerbang verifikasi pelajar, Session utama, dan Session review read-only |
+| `graduation-project-flow` | CASE 08 “Proyek Kelulusan Buku Pi Pi” | Belum dipakai ulang | Memperjelas tanggung jawab dan gerbang verifikasi pelajar, Session utama, dan Session review read-only |
 
 Beranda buku panduan referensi sudah menyelesaikan navigasi dan perbandingan lewat tabel; tahap ini tidak menambah diagram agar tidak mengulang penyajian.

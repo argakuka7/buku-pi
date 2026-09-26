@@ -1,8 +1,8 @@
 ---
-title: 'Introduction: Why read this Pi Bluebook'
-description: Understand first what Pi is, who it suits, and why this Bluebook starts from one small thing you can verify.
+title: 'Introduction: Why read this Buku Pi guide'
+description: Understand first what Pi is, who it suits, and why this Buku Pi starts from one small thing you can verify.
 prev:
-  text: Bluebook main path
+  text: Buku Pi main path
   link: /en/guide/
 next:
   text: Ten lasting judgments from 98 tweets
@@ -11,7 +11,7 @@ next:
 
 <span class="library-status">INTRODUCTION · Start here</span>
 
-# Why read this Pi Bluebook
+# Why read this Buku Pi guide
 
 You may have used ChatGPT, Claude, or another chat product before: open a window, ask a question, wait for an answer. The first time you open Pi, it also looks like a terminal window where you type text, but that is not the best way to understand it.
 
@@ -48,9 +48,9 @@ That is why this book will not immediately hand you a complete list of every fea
 
 If you want to practice right away, go to [Start from Zero](/en/guide/start-here), complete installation, authentication, and your first task for your platform, then come back to understand the principles. If you want to read systematically, continue in the order of the Introduction, the ten judgments, the guidelines, the Prologue, and the five modules. The author's story and the ten judgments are not installation prerequisites.
 
-Readers who can already use Pi steadily can pick the related module from the [Bluebook main path](/en/guide/); when you meet a concrete concept, check the [Reference Guide](/en/reference/); if you want to know how the judgments took shape, look back at [Learning notes](/en/journey/). The officially licensed translations provide the original authors' full discussions, but they do not replace the Mandarin-language operational path in the lessons.
+Readers who can already use Pi steadily can pick the related module from the [Buku Pi main path](/en/guide/); when you meet a concrete concept, check the [Reference Guide](/en/reference/); if you want to know how the judgments took shape, look back at [Learning notes](/en/journey/). The officially licensed translations provide the original authors' full discussions, but they do not replace the Mandarin-language operational path in the lessons.
 
-The next page gathers the judgments that appeared repeatedly in 98 tweets and still hold as of this edition's completion. The original tweets preserve the explorations and changes of their time, while the Bluebook carries only the conclusions as they stand now.
+The next page gathers the judgments that appeared repeatedly in 98 tweets and still hold as of this edition's completion. The original tweets preserve the explorations and changes of their time, while the Buku Pi carries only the conclusions as they stand now.
 
 ## Further reading
 

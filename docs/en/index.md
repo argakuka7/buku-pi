@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Pi Coding Agent Learning Bluebook
+title: "Buku Pi: Pi Coding Agent Guide"
 titleTemplate: ':title | A Practical Path for Beginners'
 description: A systematic Pi Coding Agent tutorial for beginners, starting from installation and a first verifiable task, then gradually mastering Session, Context, Skill, Extension, and long-running agent workflows.
 ---
@@ -8,8 +8,8 @@ description: A systematic Pi Coding Agent tutorial for beginners, starting from 
 <main class="bluebook-home">
   <section class="bluebook-hero" aria-labelledby="bluebook-title">
     <div class="bluebook-hero__main">
-      <p class="bluebook-kicker"><span>PI BLUEBOOK</span><span>Open Learning Edition · 2026</span></p>
-      <h1 id="bluebook-title">Pi Coding Agent Learning Bluebook</h1>
+      <p class="bluebook-kicker"><span>BUKU PI</span><span>Open Learning Edition · 2026</span></p>
+      <h1 id="bluebook-title">Buku Pi: Pi Coding Agent Guide</h1>
       <p class="bluebook-deck">Start from installation and your first verifiable task, then gradually come to understand Session, Context, Skill, Extension, and long-running workflows.</p>
       <p class="bluebook-intro">A terminal Coding Harness learning path reorganized for beginners. Finish one small real task all the way through first, then build your own Pi layer by layer.</p>
       <div class="bluebook-actions">
@@ -45,7 +45,7 @@ description: A systematic Pi Coding Agent tutorial for beginners, starting from 
     <div class="bluebook-map">
       <a class="bluebook-map__item bluebook-map__item--primary" href="/en/guide/introduction">
         <span>01 · CORE CURRICULUM</span>
-        <h3>Bluebook Main Path</h3>
+        <h3>Buku Pi Main Path</h3>
         <p>The core of the whole site. Enter through the Introduction, pass through 5 modules and 14 lessons, and finish with extensions, VPS, and safety verification.</p>
         <b>Start with the Introduction →</b>
       </a>
@@ -82,7 +82,7 @@ description: A systematic Pi Coding Agent tutorial for beginners, starting from 
     </div>
     <aside class="bluebook-notes-strip">
       <span>AUTHOR'S NOTES</span>
-      <p><strong>Learning notes</strong> holds 98 tweets, personal reflections, and changes of assessment. This is the raw-material archive behind the Bluebook, not a replacement for the verified tutorials.</p>
+      <p><strong>Learning notes</strong> holds 98 tweets, personal reflections, and changes of assessment. This is the raw-material archive behind the Buku Pi, not a replacement for the verified tutorials.</p>
       <a href="/en/journey/">Read the notes →</a>
     </aside>
   </section>

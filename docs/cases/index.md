@@ -2,7 +2,7 @@
 title: Studi kasus
 description: Kumpulan studi kasus tugas Pi yang dapat direproduksi dan diverifikasi secara mandiri, lengkap dengan materi latihan, langkah eksekusi, hasil yang diharapkan, dan daftar periksa.
 prev:
-  text: Alur utama Bluebook
+  text: Alur utama Buku Pi
   link: /guide/
 next:
   text: CASE 01 · Daftar tindakan notulen rapat
@@ -13,7 +13,7 @@ next:
 
 # Studi kasus
 
-Di sini kami tidak mengulang konsepnya dari awal. Setiap studi kasus bernaung di bawah sebuah modul Bluebook, dimulai dari materi yang jelas, lalu menuliskan tugas, batasan, hasil yang diharapkan, dan cara pemulihan setelah kegagalan, sehingga pembaca dapat mereproduksinya secara utuh di lingkungannya sendiri.
+Di sini kami tidak mengulang konsepnya dari awal. Setiap studi kasus bernaung di bawah sebuah modul Buku Pi, dimulai dari materi yang jelas, lalu menuliskan tugas, batasan, hasil yang diharapkan, dan cara pemulihan setelah kegagalan, sehingga pembaca dapat mereproduksinya secara utuh di lingkungannya sendiri.
 
 ## Struktur studi kasus
 
@@ -38,7 +38,7 @@ Delapan studi kasus menerapkan metode dalam kurikulum ke materi tetap, tugas yan
 | 05 | Modul 4 | [Dua jalur review independen](/cases/independent-review) | Dua bukti terisolasi digabungkan secara terpusat oleh sesi utama |
 | 06 | Modul 5 | [Pemulihan dari checkpoint](/cases/checkpoint-recovery) | Tiga materi tidak berulang dan tidak terlewat, progres konsisten dengan hasil |
 | 07 | Modul 5 | [Review keamanan sebelum tugas](/cases/safe-review) | Yang belum diketahui tetap dibiarkan, tindakan berbahaya tidak dieksekusi |
-| 08 | Gabungan | [Proyek akhir Bluebook Pi](/cases/graduation-project) | Siklus tertutup dari kebutuhan, implementasi, checkpoint, review hanya-baca, hingga verifikasi manusia |
+| 08 | Gabungan | [Proyek akhir Buku Pi](/cases/graduation-project) | Siklus tertutup dari kebutuhan, implementasi, checkpoint, review hanya-baca, hingga verifikasi manusia |
 
 Modul 1 untuk sementara tidak memiliki CASE tersendiri: instalasi, path Windows, login, dan direktori latihan itu sendiri sudah berupa praktik bertahap. Modul 3 hanya menambahkan satu eksperimen pembanding, tanpa menambah pelajaran baru.
 

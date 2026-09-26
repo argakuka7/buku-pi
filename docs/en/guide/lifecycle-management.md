@@ -23,7 +23,7 @@ Before updating, you can open [Pi release notes](/en/releases/) and enter the cu
 According to Pi's current official documentation, uninstalling Pi **does not** automatically delete `~/.pi/agent/`. This directory can contain authentication information, sessions, settings, and Packages you have installed. Seeing `pi: command not found` is not proof that credentials and history are gone from the computer.
 :::
 
-This page also covers the official installer that Bluebook currently uses and the npm path. To update Pi itself, you can always use `pi update`; when uninstalling, you have to go back to how you installed it in the first place. On Windows, when you see “a normal terminal”, you still have to open Git Bash.
+This page also covers the official installer that Buku Pi currently uses and the npm path. To update Pi itself, you can always use `pi update`; when uninstalling, you have to go back to how you installed it in the first place. On Windows, when you see “a normal terminal”, you still have to open Git Bash.
 
 ## Decide first what you want to accomplish
 

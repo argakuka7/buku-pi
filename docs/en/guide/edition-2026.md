@@ -90,5 +90,5 @@ The website currently has the reading entry for the first three items built; the
 ## Further reading
 
 - [Prologue: Meet the author of Pi, Mario Zechner](/en/guide/mario-zechner)
-- [The complete Bluebook main flow](/en/guide/)
+- [The complete Buku Pi main flow](/en/guide/)
 - Repository content copyright notes: `LICENSE-CONTENT.md`.

@@ -1,4 +1,4 @@
-# Rencana Pembaruan P0 Pengantar Bluebook Pi
+# Rencana Pembaruan P0 Pengantar Buku Pi Pi
 
 > **Catatan historis.** Dokumen ini berasal dari proyek sumber (versi Mandarin, dua locale). Pada edisi Bahasa Indonesia, perintah pemeriksaannya adalah `npm run check` dan hanya ada satu locale.
 

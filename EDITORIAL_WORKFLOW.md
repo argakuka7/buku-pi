@@ -1,4 +1,4 @@
-# Alur Kerja Artikel Bluebook Pembelajaran Pi
+# Alur Kerja Artikel Buku Pi
 
 Alur ini dipakai untuk merapikan tweet, artikel panjang, dan praktik nyata menjadi bab yang bisa dipelajari, diverifikasi, dan diterbitkan. Semua model bekerja secara independen terlebih dahulu, lalu editor utama menggabungkan naskah; pendapat model tidak boleh langsung menimpa naskah asli.
 

@@ -2,7 +2,7 @@
 title: Case Studies
 description: A collection of reproducible Pi task case studies that you can verify independently, complete with practice materials, execution steps, expected results, and checklists.
 prev:
-  text: Bluebook main path
+  text: Buku Pi main path
   link: /en/guide/
 next:
   text: CASE 01 · Meeting-notes action list
@@ -13,7 +13,7 @@ next:
 
 # Case Studies
 
-We do not repeat the concepts from scratch here. Each case study sits under a Bluebook module, starting from clear materials, then setting out the task, constraints, expected results, and how to recover after a failure, so that readers can reproduce it end to end in their own environment.
+We do not repeat the concepts from scratch here. Each case study sits under a Buku Pi module, starting from clear materials, then setting out the task, constraints, expected results, and how to recover after a failure, so that readers can reproduce it end to end in their own environment.
 
 ## Case Study Structure
 
@@ -38,7 +38,7 @@ Eight case studies apply the methods in the curriculum to fixed materials, repli
 | 05 | Module 4 | [Two independent review tracks](/en/cases/independent-review) | Two isolated pieces of evidence merged centrally by the main session |
 | 06 | Module 5 | [Recovery from a checkpoint](/en/cases/checkpoint-recovery) | Three materials neither repeated nor skipped, progress consistent with results |
 | 07 | Module 5 | [Safety review before a task](/en/cases/safe-review) | What is unknown stays unknown, dangerous actions are not executed |
-| 08 | Combined | [Pi Bluebook graduation project](/en/cases/graduation-project) | Closed loop from requirements, implementation, checkpoint, read-only review, to human verification |
+| 08 | Combined | [Buku Pi graduation project](/en/cases/graduation-project) | Closed loop from requirements, implementation, checkpoint, read-only review, to human verification |
 
 Module 1 does not have a dedicated CASE for now: installation, Windows paths, login, and the practice directory itself are already staged practice. Module 3 only adds one comparison experiment, without adding a new lesson.
 

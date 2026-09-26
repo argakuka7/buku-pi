@@ -1,5 +1,5 @@
 ---
-title: Ditulis di Luar Bluebook
+title: Ditulis di Luar Buku Pi
 description: Refleksi pribadi penulis asli tentang Pi, proses belajar, catatan kesalahan, dan arsip tweet.
 prev:
   text: Izin, isolasi, dan verifikasi
@@ -9,13 +9,13 @@ next:
   link: /tweets/
 ---
 
-<span class="library-status">CATATAN BELAJAR · Di luar Bluebook</span>
+<span class="library-status">CATATAN BELAJAR · Di luar Buku Pi</span>
 
-# Ditulis di Luar Bluebook
+# Ditulis di Luar Buku Pi
 
-Di sini saya menyimpan refleksi pribadi, proses belajar, dan perubahan penilaian saya. Banyak penilaian berasal dari satu praktik nyata; setelah membaca kode sumber atau artikel, saya sering kembali memperbaiki pemahaman sebelumnya. Catatan ini tidak akan ditulis ulang menjadi jalur sukses yang terlalu rapi, dan tidak memikul tanggung jawab sebagai tutorial Bluebook.
+Di sini saya menyimpan refleksi pribadi, proses belajar, dan perubahan penilaian saya. Banyak penilaian berasal dari satu praktik nyata; setelah membaca kode sumber atau artikel, saya sering kembali memperbaiki pemahaman sebelumnya. Catatan ini tidak akan ditulis ulang menjadi jalur sukses yang terlalu rapi, dan tidak memikul tanggung jawab sebagai tutorial Buku Pi.
 
-Kutipan berikut adalah teks asli yang saya tulis saat memutuskan untuk menyusun Bluebook.
+Kutipan berikut adalah teks asli yang saya tulis saat memutuskan untuk menyusun Buku Pi.
 
 <article class="tweet-entry tweet-entry-featured">
 
@@ -89,7 +89,7 @@ Setelah membaca tiga terjemahan — portabilitas sesi, pemadatan konteks, dan pr
 
 Catatan belajar akan menyimpan penilaian saat itu sekaligus koreksi di kemudian hari. Sebagian isi tweet awal bergantung pada versi saat itu, dan bahasanya pun tidak dipoles ulang. Semuanya tetap dipertahankan karena proses belajar itu sendiri mengandung coba-coba.
 
-Konten yang benar-benar perlu diikuti pembaca akan masuk ke jalur utama Bluebook, dengan verifikasi ulang atas perintah, versi, dan hasil verifikasi. Catatan pribadi bertugas menjelaskan bagaimana saya sampai di sini; kedua bagian saling terhubung, tetapi memikul tugas yang berbeda.
+Konten yang benar-benar perlu diikuti pembaca akan masuk ke jalur utama Buku Pi, dengan verifikasi ulang atas perintah, versi, dan hasil verifikasi. Catatan pribadi bertugas menjelaskan bagaimana saya sampai di sini; kedua bagian saling terhubung, tetapi memikul tugas yang berbeda.
 
 [Mulai membaca dari tahap pertama](/tweets/01-meet-pi) · [Lihat keenam tahap](/tweets/)
 

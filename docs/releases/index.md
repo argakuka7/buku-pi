@@ -20,6 +20,6 @@ Halaman ini menyusun `CHANGELOG.md` resmi Pi Coding Agent menjadi arsip yang dap
 - Sumber fakta: [Changelog resmi Pi Coding Agent](https://github.com/earendil-works/pi/blob/main/packages/coding-agent/CHANGELOG.md). Setiap catatan versi dapat dicek kembali ke teks resmi yang bersangkutan.
 - Halaman menyimpan cuplikan lokal yang telah diverifikasi, sehingga pembangunan situs tidak bergantung pada permintaan sementara browser ke GitHub; saat tidak ada jaringan, versi yang sudah terindeks tetap dapat ditelusuri.
 - Saat memperbarui data, jalankan `npm run sync:pi-releases`, lalu jalankan `npm run check:releases` dan `npm run check`. Halaman akan menampilkan tanggal verifikasi cuplikan ini.
-- Catatan resmi berbahasa Inggris digunakan sesuai lisensi repositori hulu; kategori dan penjelasan titik kunci berbahasa Indonesia di halaman ini merupakan konten yang disusun Bluebook. Batas lisensi proyek dapat dilihat di berkas `LICENSE-CONTENT.md`.
+- Catatan resmi berbahasa Inggris digunakan sesuai lisensi repositori hulu; kategori dan penjelasan titik kunci berbahasa Indonesia di halaman ini merupakan konten yang disusun Buku Pi. Batas lisensi proyek dapat dilihat di berkas `LICENSE-CONTENT.md`.
 
 Jika Anda berencana meningkatkan versi Pi, baca dulu [Pembaruan, logout, dan uninstalasi](/guide/lifecycle-management), catat `pi --version` saat ini, lalu bandingkan di sini untuk memeriksa Breaking Changes dan panduan migrasi versi tujuan.

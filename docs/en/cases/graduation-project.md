@@ -7,7 +7,7 @@ next: { text: Back to the course, link: /en/guide/ }
 
 <span class="library-status">CASE 08 · Capstone project</span>
 
-# Pi Bluebook graduation project
+# Buku Pi graduation project
 
 ## Result
 
@@ -21,7 +21,7 @@ This image contains three hard rules: the main Session must not approve its own 
 
 ## What Will Be Changed This Time
 
-The practice repository uses a copy of the Pi Learning Bluebook project. The task is to add a “Task completion checklist” to the reference handbook, and link it from the home page and the sidebar. The requirements are deliberately limited to three site files (one new page, one table of contents, one navigation configuration) and one local checkpoint — enough to practice a real project flow without shifting attention to complicated business code.
+The practice repository uses a copy of the Pi Learning Buku Pi project. The task is to add a “Task completion checklist” to the reference handbook, and link it from the home page and the sidebar. The requirements are deliberately limited to three site files (one new page, one table of contents, one navigation configuration) and one local checkpoint — enough to practice a real project flow without shifting attention to complicated business code.
 
 You can preview these three materials first; the official exercise will copy them from a fixed-version clone:
 
@@ -39,8 +39,8 @@ Run in an ordinary terminal. The block below uses the `buku-pi` practice reposit
 
 ```bash
 cd ~/Downloads
-git clone https://github.com/argakuka7/buku-pi.git pi-bluebook-graduation
-cd pi-bluebook-graduation
+git clone https://github.com/argakuka7/buku-pi.git buku-pi-graduation
+cd buku-pi-graduation
 git checkout --detach ea68e5f   # use a commit from your own copy if this hash is not there
 npm ci
 npm run check:content
@@ -48,7 +48,7 @@ git rev-parse HEAD
 git status --short
 ```
 
-If `pi-bluebook-graduation` already exists, use a new directory name, do not overwrite the old directory. `git status --short` at the start should produce no output. This page consistently uses `ea68e5f` as the practice baseline; the `checkout` in the preparation stage is only used to move to a verified version, and after you enter Pi there are no more Git write operations. Save the full commit number from `git rev-parse HEAD`; stop first if the materials and the repository are inconsistent. Windows Git Bash can also use `~/Downloads`; the freshly cloned repository here is not placed in the `pi-practice` of the previous lessons. Commit `ea68e5f` is the baseline of the Chinese-language source repository; if you are working on the English edition, use this edition's repository and your own commit, then record that commit number in the checkpoint.
+If `buku-pi-graduation` already exists, use a new directory name, do not overwrite the old directory. `git status --short` at the start should produce no output. This page consistently uses `ea68e5f` as the practice baseline; the `checkout` in the preparation stage is only used to move to a verified version, and after you enter Pi there are no more Git write operations. Save the full commit number from `git rev-parse HEAD`; stop first if the materials and the repository are inconsistent. Windows Git Bash can also use `~/Downloads`; the freshly cloned repository here is not placed in the `pi-practice` of the previous lessons. Commit `ea68e5f` is the baseline of the Chinese-language source repository; if you are working on the English edition, use this edition's repository and your own commit, then record that commit number in the checkpoint.
 
 When you later open another ordinary terminal, enter the practice repository directory first, then run Pi or the project checks.
 
@@ -56,14 +56,14 @@ Put the three materials next to the repository, not inside it:
 
 ```bash
 cd ..
-mkdir -p pi-bluebook-graduation-materials/bluebook-graduation-review
-cp pi-bluebook-graduation/docs/public/examples/graduation-project/requirements.md \
-  pi-bluebook-graduation-materials/requirements.md
-cp pi-bluebook-graduation/docs/public/examples/graduation-project/checkpoint-template.md \
-  pi-bluebook-graduation-materials/checkpoint-template.md
-cp pi-bluebook-graduation/docs/public/examples/graduation-project/bluebook-graduation-review/SKILL.md \
-  pi-bluebook-graduation-materials/bluebook-graduation-review/SKILL.md
-cd pi-bluebook-graduation
+mkdir -p buku-pi-graduation-materials/bluebook-graduation-review
+cp buku-pi-graduation/docs/public/examples/graduation-project/requirements.md \
+  buku-pi-graduation-materials/requirements.md
+cp buku-pi-graduation/docs/public/examples/graduation-project/checkpoint-template.md \
+  buku-pi-graduation-materials/checkpoint-template.md
+cp buku-pi-graduation/docs/public/examples/graduation-project/bluebook-graduation-review/SKILL.md \
+  buku-pi-graduation-materials/bluebook-graduation-review/SKILL.md
+cd buku-pi-graduation
 ```
 
 The page title set by the requirements is a contract: do not translate or replace it yourself, because the later check matches against that title.
@@ -82,8 +82,8 @@ pi --name "CASE 08 Graduation project" --no-extensions --no-skills --no-context-
 Here, automatically discovered Skills and Extensions are turned off first so that unknown resources do not change the behavior of the main task. Not installing an Extension does not mean skipping a lesson; it means judging from the requirements that “the tools you already have are enough”. Once inside Pi, send:
 
 ```text
-Read ../pi-bluebook-graduation-materials/requirements.md and
-../pi-bluebook-graduation-materials/checkpoint-template.md.
+Read ../buku-pi-graduation-materials/requirements.md and
+../buku-pi-graduation-materials/checkpoint-template.md.
 Check the README of the current repository, package.json, the reference handbook home page, the VitePress navigation configuration,
 and the three lesson pages named in the requirements.
 
@@ -141,7 +141,7 @@ The main Session's “everything is done” can only be treated as a hint. Open 
 
 ```bash
 pi --name "CASE 08 Independent review" --no-extensions --no-skills --no-context-files \
-  --skill ../pi-bluebook-graduation-materials/bluebook-graduation-review/SKILL.md \
+  --skill ../buku-pi-graduation-materials/bluebook-graduation-review/SKILL.md \
   --tools read,grep,find,ls
 ```
 
@@ -149,7 +149,7 @@ pi --name "CASE 08 Independent review" --no-extensions --no-skills --no-context-
 
 ```text
 Use bluebook-graduation-review to review the current working tree.
-The requirements file is ../pi-bluebook-graduation-materials/requirements.md.
+The requirements file is ../buku-pi-graduation-materials/requirements.md.
 
 Read the files allowed by the requirements, and check whether the content, navigation, and cross-links are consistent.
 Do not write files, run commands, or install dependencies. I will provide the Git diff and the build result;

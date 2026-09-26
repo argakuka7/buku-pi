@@ -19,7 +19,7 @@ Ini adalah bluebook pembelajaran Pi yang ditujukan untuk pemula berbahasa Mandar
 
 | Item | Keterangan |
 | --- | --- |
-| Nama versi | Bluebook pembelajaran Pi · Edisi belajar terbuka 2026 |
+| Nama versi | Buku Pi · Edisi belajar terbuka 2026 |
 | Dasar verifikasi edisi awal | 9 September 2026; halaman berikutnya diperbarui sesuai catatan verifikasinya masing-masing |
 | Skala alur utama | 5 modul, 14 pelajaran |
 | Platform utama | macOS; Windows memakai jalur terpisah untuk masuk ke alur utama yang sama |
@@ -90,5 +90,5 @@ Situs web saat ini sudah membangun pintu masuk pembacaan untuk tiga item pertama
 ## Lanjut membaca
 
 - [Prolog: Kenali dulu penulis Pi, Mario Zechner](/guide/mario-zechner)
-- [Alur utama lengkap Bluebook](/guide/)
+- [Alur utama lengkap Buku Pi](/guide/)
 - Keterangan hak cipta konten repositori: `LICENSE-CONTENT.md`.

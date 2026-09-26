@@ -5,7 +5,7 @@ export default function (pi: ExtensionAPI) {
     description: "Memastikan Extension pengajaran berhasil dimuat",
     handler: async (_args, ctx) => {
       ctx.ui.notify(
-        "Extension Bluebook sudah dimuat; perintah ini tidak membaca atau mengubah file apa pun.",
+        "Extension Buku Pi sudah dimuat; perintah ini tidak membaca atau mengubah file apa pun.",
         "info",
       );
     },

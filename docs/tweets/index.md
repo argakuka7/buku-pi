@@ -2,7 +2,7 @@
 title: Daftar Isi Pembelajaran Tweet
 description: Kumpulan 98 tweet asli Pi yang disusun dalam enam tahap pembelajaran.
 prev:
-  text: Ditulis di Luar Bluebook
+  text: Ditulis di Luar Buku Pi
   link: /journey/
 next:
   text: Mulai Mengenal Pi dari Rasa Penasaran
@@ -36,7 +36,7 @@ Model, versi, harga, dan status produk di dalam tweet bisa berubah. Tanggal adal
 
 Extension, Package, Skill, dan klien mandiri yang tersebar di banyak tweet telah dirapikan secara terpisah menjadi [rekomendasi plugin dan peta pilihan](/plugins/). Halaman rekomendasi akan memeriksa sumber dan risiko terkini; daftar isi ini tetap menyimpan penilaian asli pada saat itu.
 
-Prinsip belajar yang berulang muncul dan belum terbantahkan setelah praktik selanjutnya telah disaring menjadi [sepuluh penilaian yang tersisa dari 98 tweet](/guide/lasting-principles). Halaman itu berisi kesimpulan Bluebook saat ini; di sini kami tetap menyimpan ungkapan asli, tanggal terbit, dan perubahan pemahaman, sehingga keduanya tidak saling menimpa.
+Prinsip belajar yang berulang muncul dan belum terbantahkan setelah praktik selanjutnya telah disaring menjadi [sepuluh penilaian yang tersisa dari 98 tweet](/guide/lasting-principles). Halaman itu berisi kesimpulan Buku Pi saat ini; di sini kami tetap menyimpan ungkapan asli, tanggal terbit, dan perubahan pemahaman, sehingga keduanya tidak saling menimpa.
 
 ::: info Aturan Penataan Tweet Asli
 Teks berasal dari pustaka tweet asli pribadi di Google Drive. Di situs ini kami mempertahankan waktu terbit dan kalimat asli, sekaligus menghapus alamat x.com serta tautan pendek media t.co. Gambar dan video dari postingan asli akan ditambahkan setelah mendapatkan materi yang lebih jelas, bukan digantikan dengan tautan pendek yang sudah mati.

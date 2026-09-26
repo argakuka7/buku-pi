@@ -2,7 +2,7 @@
 title: Mengapa Pi Menyerahkan Sesi dan Konteks ke Tangan Anda
 description: "Membaca berangkai portabilitas sesi, prompt cache, pemadatan konteks, dan Agent Harness: bedakan catatan sesi, konteks model, dan permintaan provider, serta pahami mengapa setiap lapisan perlu bisa diperiksa dan diubah."
 prev:
-  text: Ditulis di Luar Bluebook
+  text: Ditulis di Luar Buku Pi
   link: /journey/
 next:
   text: Sesi yang tidak bisa Anda bawa

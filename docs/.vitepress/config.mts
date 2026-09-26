@@ -38,7 +38,7 @@ type Locale = {
 }
 
 const footerLinks = (prefix: string, label: string, labels: { toc: string; cases: string; reference: string; translations: string; about: string; lisensi: string }) =>
-  `<span class="pi-footer-brand">PI BLUEBOOK</span><span class="pi-footer-links"><a href="${prefix}/guide/">${labels.toc}</a><a href="${prefix}/cases/">${labels.cases}</a><a href="${prefix}/reference/">${labels.reference}</a><a href="${prefix}/translations/">${labels.translations}</a><a href="${prefix}/about">${labels.about}</a><a href="${prefix}/lisensi">${labels.lisensi}</a></span>`
+  `<span class="pi-footer-brand">BUKU PI</span><span class="pi-footer-links"><a href="${prefix}/guide/">${labels.toc}</a><a href="${prefix}/cases/">${labels.cases}</a><a href="${prefix}/reference/">${labels.reference}</a><a href="${prefix}/translations/">${labels.translations}</a><a href="${prefix}/about">${labels.about}</a><a href="${prefix}/lisensi">${labels.lisensi}</a></span>`
 
 const localeContent: Record<'root' | 'en', Locale> = {
   root: {
@@ -46,18 +46,18 @@ const localeContent: Record<'root' | 'en', Locale> = {
     label: 'Bahasa Indonesia',
     lang: 'id',
     ogLocale: 'id_ID',
-    siteName: 'Bluebook Pi Coding Agent',
+    siteName: 'Buku Pi',
     siteDescription:
       'Jalur belajar Pi Coding Agent tidak resmi untuk pemula berbahasa Indonesia: dari instalasi dan tugas pertama yang bisa diverifikasi, sampai menguasai Session, konteks, Skill, Extension, dan alur kerja agent jangka panjang.',
     homeSeoTitle: 'Tutorial Pi Coding Agent Bahasa Indonesia | Dari Pemula ke Alur Kerja Agent yang Terkendali',
     homeLabel: 'Beranda',
-    alternateName: 'PI BLUEBOOK (edisi Bahasa Indonesia)',
+    alternateName: 'BUKU PI (edisi Bahasa Indonesia)',
     ogImage: ogImageUrl,
-    ogImageAlt: 'Pi Bluebook: dari tugas pertama yang bisa diverifikasi menuju alur kerja agent yang terkendali',
+    ogImageAlt: 'Buku Pi: dari tugas pertama yang bisa diverifikasi menuju alur kerja agent yang terkendali',
     sectionNames: {
       about: 'Tentang edisi ini',
       cases: 'Studi kasus',
-      guide: 'Jalur utama Bluebook',
+      guide: 'Jalur utama Buku Pi',
       journey: 'Catatan belajar',
       lisensi: 'Lisensi',
       mulai: 'Peta belajar',
@@ -104,18 +104,18 @@ const localeContent: Record<'root' | 'en', Locale> = {
     label: 'English',
     lang: 'en',
     ogLocale: 'en_US',
-    siteName: 'Pi Coding Agent Bluebook',
+    siteName: 'Buku Pi',
     siteDescription:
       'An unofficial Pi Coding Agent learning path for beginners: from installation and your first verifiable task all the way to Session, Context, Skill, Extension, and long-running agent workflows.',
     homeSeoTitle: 'Pi Coding Agent Tutorial | From Your First Verifiable Task to a Controlled Agent Workflow',
     homeLabel: 'Home',
-    alternateName: 'PI BLUEBOOK (English edition)',
+    alternateName: 'BUKU PI (English edition)',
     ogImage: `${siteUrl}/og-image-en.png`,
-    ogImageAlt: 'Pi Bluebook: from your first verifiable task to a controlled agent workflow',
+    ogImageAlt: 'Buku Pi: from your first verifiable task to a controlled agent workflow',
     sectionNames: {
       about: 'About this edition',
       cases: 'Case studies',
-      guide: 'Bluebook main track',
+      guide: 'Buku Pi main track',
       journey: 'Learning notes',
       lisensi: 'License',
       mulai: 'Learning map',
@@ -197,7 +197,7 @@ function getBreadcrumbList(
 function themeConfigFor(locale: Locale, nav: unknown, sidebar: unknown) {
   return {
     logo: '/brand-mark.svg',
-    siteTitle: 'PI BLUEBOOK',
+    siteTitle: 'BUKU PI',
     nav,
     sidebar,
     outline: { level: [2, 3] as [number, number], label: locale.outlineLabel },
@@ -276,7 +276,7 @@ export default defineConfig({
     // disediakan oleh themeConfig masing-masing locale di atas.
     search: { provider: 'local' as const, options: { miniSearch } },
     logo: '/brand-mark.svg',
-    siteTitle: 'PI BLUEBOOK'
+    siteTitle: 'BUKU PI'
   },
   transformHead({ page }) {
     return page === '404.md'

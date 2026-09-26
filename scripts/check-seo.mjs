@@ -108,7 +108,7 @@ for (const filePath of htmlFiles) {
     if (normalizedPath === 'index.html' || normalizedPath === 'en/index.html') {
       if (
         data['@type'] !== 'WebSite' ||
-        !String(data.alternateName ?? '').startsWith('PI BLUEBOOK') ||
+        !String(data.alternateName ?? '').startsWith('BUKU PI') ||
         data.inLanguage !== expectedLanguage
       ) {
         fail(`${normalizedPath} home page WebSite data is incomplete`)

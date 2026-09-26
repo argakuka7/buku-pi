@@ -2,7 +2,7 @@
 title: 'Mandarin-language Windows path: install and run Pi'
 description: First choose between native Git Bash, PowerShell, and WSL, then install and run Pi following the beginner Git Bash path.
 prev:
-  text: Bluebook main path
+  text: Buku Pi main path
   link: /en/guide/
 next:
   text: Log in to your account so Pi can answer you
@@ -13,7 +13,7 @@ next:
 
 # Mandarin-language Windows path: install and run Pi
 
-You opened Bluebook on a Windows computer but found that lessons 1 and 2 are full of Mac terminals, `Command` shortcuts, and `/Users/...` paths. Do not convert those commands into Windows format word for word, and do not mix Command Prompt, PowerShell, WSL, and Git Bash all at once.
+You opened Buku Pi on a Windows computer but found that lessons 1 and 2 are full of Mac terminals, `Command` shortcuts, and `/Users/...` paths. Do not convert those commands into Windows format word for word, and do not mix Command Prompt, PowerShell, WSL, and Git Bash all at once.
 
 This Mandarin path first explains the three execution environments on Windows, then pins the first installation to the Git Bash path that is easiest to reproduce. After you pass the verification on this page, go straight on to [Lesson 3: login and model setup](/en/guide/connect-model), then return to the main flow.
 
@@ -161,7 +161,7 @@ The first operation may immediately bring up a login prompt. This means Pi is al
 
 After exiting, you should be back in Git Bash. Run `pi` once more to make sure it can open again; after that you can `/quit` again or continue to the next lesson.
 
-## 6. How to follow the rest of the Bluebook main flow
+## 6. How to follow the rest of the Buku Pi main flow
 
 Starting from the next lesson, Windows users still use Git Bash and follow this fixed set of substitutions:
 
@@ -172,7 +172,7 @@ Starting from the next lesson, Windows users still use Git Bash and follow this 
 | `shasum -a 256` | `sha256sum` |
 | `Command+C` / `Command+V` | Copy on the web page with `Ctrl+C`, paste in Git Bash with `Shift+Insert` |
 
-The next practice commands, such as `curl`, `sed`, `find`, and `test`, still run in Git Bash. When Bluebook writes “a normal terminal”, Windows users should understand it as “Git Bash”.
+The next practice commands, such as `curl`, `sed`, `find`, and `test`, still run in Git Bash. When Buku Pi writes “a normal terminal”, Windows users should understand it as “Git Bash”.
 
 Pi also provides an optional `powershell` Tool, but that is not a prerequisite for this book's beginner path. Even if that Tool is enabled, `!` and `!!` in Pi's editor area still use Bash. Finish one path first, then decide whether to add a second shell.
 

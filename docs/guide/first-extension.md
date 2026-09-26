@@ -70,7 +70,7 @@ pi --no-extensions -e ./bluebook-examples/bluebook-check.ts
 /bluebook-check
 ```
 
-Anda diharapkan melihat pemberitahuan antarmuka “Extension Bluebook sudah dimuat; perintah ini tidak membaca atau mengubah file apa pun.” Ini membuktikan perintah sudah terdaftar dan fungsi penanganannya berhasil berjalan; ini tidak membuktikan notifikasi desktop, tugas latar belakang, atau kemampuan Extension lain sudah tersedia.
+Anda diharapkan melihat pemberitahuan antarmuka “Extension Buku Pi sudah dimuat; perintah ini tidak membaca atau mengubah file apa pun.” Ini membuktikan perintah sudah terdaftar dan fungsi penanganannya berhasil berjalan; ini tidak membuktikan notifikasi desktop, tugas latar belakang, atau kemampuan Extension lain sudah tersedia.
 
 ![Ilustrasi: Si Hitam memasang modul ke sisi mesin dan lonceng berbunyi, dengan label Extension aktif dan notifikasi](/images/06-pi-hasil-extension.webp)
 

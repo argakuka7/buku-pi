@@ -61,7 +61,7 @@ Pi's job is to connect the model, tools, Session, Context, and working directory
 
 *Diagram: the model is responsible for judgment, and Pi turns that judgment into work that can be run, saved, and verified.*
 
-**Further reading:** [Pi](/en/reference/glossary#pi) · [Agent Harness](/en/reference/glossary#agent-harness) · [Introduction: Why read this Pi Bluebook](/en/guide/introduction)
+**Further reading:** [Pi](/en/reference/glossary#pi) · [Agent Harness](/en/reference/glossary#agent-harness) · [Introduction: Why read this Buku Pi guide](/en/guide/introduction)
 
 ## What is the difference between Pi and Pi Coding Agent? {#pi-vs-pi-coding-agent}
 
@@ -235,4 +235,4 @@ Once you start working inside a directory, Pi's built-in tools and the Extension
 
 ## Still Cannot Find the Answer?
 
-Use the site search first with a keyword in Indonesian or English, for example “context”, “compaction”, or “subagent”. If the question needs complete operational steps, go back to the [Bluebook main path](/en/guide/); if the question comes from real usage and is not yet covered on this page, describe the version you use, where the action happens, the expected result, and the actual symptom in the project repository's issue tracker.
+Use the site search first with a keyword in Indonesian or English, for example “context”, “compaction”, or “subagent”. If the question needs complete operational steps, go back to the [Buku Pi main path](/en/guide/); if the question comes from real usage and is not yet covered on this page, describe the version you use, where the action happens, the expected result, and the actual symptom in the project repository's issue tracker.

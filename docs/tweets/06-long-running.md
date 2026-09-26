@@ -6,7 +6,7 @@ prev:
   text: Membuat Subagent Belajar Berbagi Tugas
   link: /tweets/05-subagents-research
 next:
-  text: Ditulis di Luar Bluebook
+  text: Ditulis di Luar Buku Pi
   link: /journey/
 ---
 

@@ -2,7 +2,7 @@
 title: Why Pi Puts Sessions and Context in Your Hands
 description: 'Reading session portability, prompt cache, context compaction, and the Agent Harness in sequence: distinguish session records, model context, and provider requests, and understand why each layer needs to be inspectable and editable.'
 prev:
-  text: Written Outside the Bluebook
+  text: Written Outside Buku Pi
   link: /en/journey/
 next:
   text: The Session You Cannot Take With You

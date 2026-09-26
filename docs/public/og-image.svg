@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">Sampul berbagi Bluebook Pi Coding Agent</title>
-  <desc id="desc">Judul Bluebook Pi Coding Agent edisi Bahasa Indonesia di atas kertas bergaris krem, keterangan jalur belajar, dan panel informasi edisi berwarna biru tua</desc>
+  <title id="title">Sampul berbagi Buku Pi</title>
+  <desc id="desc">Judul edisi Bahasa Indonesia Buku Pi di atas kertas bergaris krem, keterangan jalur belajar, dan panel informasi edisi berwarna biru tua</desc>
   <defs>
     <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
       <path d="M20 0H0V20" fill="none" stroke="#26313a" stroke-opacity=".055" stroke-width="1"/>
@@ -11,22 +11,27 @@
   <rect x="40" y="40" width="1120" height="550" fill="#fbfaf6" stroke="#c9c7c0" stroke-width="2"/>
   <rect x="790" y="40" width="370" height="550" fill="#26313a"/>
 
-  <text x="96" y="106" fill="#276d89" font-family="SFMono-Regular, Menlo, monospace" font-size="18" font-weight="700" letter-spacing="4">PI BLUEBOOK</text>
+  <text x="96" y="106" fill="#276d89" font-family="SFMono-Regular, Menlo, monospace" font-size="18" font-weight="700" letter-spacing="4">BUKU PI</text>
   <text x="704" y="106" fill="#276d89" font-family="SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700" text-anchor="end" letter-spacing="2">EDISI TERBUKA · 2026</text>
   <line x1="96" y1="135" x2="704" y2="135" stroke="#c9c7c0" stroke-width="2"/>
 
   <text x="94" y="235" fill="#26313a" font-family="Iowan Old Style, Baskerville, Georgia, serif" font-size="62" font-style="italic" font-weight="600">Pi Coding Agent</text>
-  <text x="96" y="307" fill="#26313a" font-family="Iowan Old Style, Baskerville, Georgia, serif" font-size="54" font-weight="600">Bluebook Pembelajaran</text>
+  <text x="96" y="307" fill="#26313a" font-family="Iowan Old Style, Baskerville, Georgia, serif" font-size="54" font-weight="600">Buku Pi</text>
   <text x="96" y="362" fill="#26313a" font-family="Iowan Old Style, Baskerville, Georgia, serif" font-size="26" font-weight="600">Dari tugas pertama yang bisa</text>
   <text x="96" y="396" fill="#26313a" font-family="Iowan Old Style, Baskerville, Georgia, serif" font-size="26" font-weight="600">diverifikasi menuju alur kerja Agent.</text>
 
   <rect x="96" y="423" width="140" height="38" fill="#276d89"/>
   <text x="166" y="448" fill="#fbfaf6" font-family="SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="2">SKENARIO</text>
   <text x="254" y="449" fill="#65727d" font-family="SFMono-Regular, Menlo, monospace" font-size="17">→ Konsep → Praktik → Verifikasi</text>
-  <text x="96" y="538" fill="#65727d" font-family="SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="2">pi-bluebook-id.pages.dev</text>
+  <text x="96" y="538" fill="#65727d" font-family="SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="2">buku-pi-dariargakuka.netlify.app</text>
 
-  <text x="848" y="206" fill="#f8f5ed" font-family="Iowan Old Style, Baskerville, serif" font-size="142">P</text>
-  <circle cx="960" cy="215" r="16" fill="#4f90aa"/>
+    <g transform="translate(845,112) scale(1.25)">
+    <path fill="#f8f5ed" d="M54 25c-4-7-13-10-23-10-8 0-13 2-13 7v57c0-4 5-7 13-7 10 0 19 4 23 11z"/>
+    <path fill="#f8f5ed" d="M66 25c4-7 13-10 23-10 8 0 13 2 13 7v57c0-4-5-7-13-7-10 0-19 4-23 11z"/>
+    <path fill="none" stroke="#26313a" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" d="M73 42l11 11-11 11"/>
+    <rect x="87" y="57" width="12" height="6.5" rx="1.5" fill="#26313a"/>
+    <circle cx="33" cy="36" r="5.8" fill="#4f90aa"/>
+  </g>
   <text x="848" y="280" fill="#a9b0b5" font-family="SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="3">EDISI INDONESIA</text>
   <line x1="848" y1="310" x2="1100" y2="310" stroke="#65727d" stroke-opacity=".6"/>
   <text x="848" y="354" fill="#a9b0b5" font-family="SFMono-Regular, Menlo, monospace" font-size="15">Kursus utama</text>

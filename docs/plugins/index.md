@@ -216,7 +216,7 @@ Sub-Agent dapat menempatkan eksplorasi, implementasi, atau peninjauan ke dalam k
 - Cocok untuk: subtugas yang dapat dijelaskan dan diverifikasi secara mandiri, serta pemrosesan paralelnya memang bisa mempersingkat waktu.
 - Tidak cocok untuk: tugas pertama, tujuan berlingkup kabur seperti “membuat seluruh proyek bagus”, dan situasi ketika Anda belum memahami biaya model serta konteks sesi.
 
-Sebelum memasang sub-Agent apa pun, Anda harus memastikan empat hal: Provider dan model mana yang dipanggilnya secara bawaan; apakah diizinkan berjalan di latar belakang; tool apa saja yang dapat dipakai subtugas; dan bagaimana menemukan hasil nyatanya setelah gagal atau dihentikan. Bluebook akan melanjutkan pembahasan pembagian tanggung jawab di [Bagaimana sub-Agent membagi kerja](/guide/subagents), bukan memberikan jawaban “wajib pasang” tanpa syarat di halaman ini.
+Sebelum memasang sub-Agent apa pun, Anda harus memastikan empat hal: Provider dan model mana yang dipanggilnya secara bawaan; apakah diizinkan berjalan di latar belakang; tool apa saja yang dapat dipakai subtugas; dan bagaimana menemukan hasil nyatanya setelah gagal atau dihentikan. Buku Pi akan melanjutkan pembahasan pembagian tanggung jawab di [Bagaimana sub-Agent membagi kerja](/guide/subagents), bukan memberikan jawaban “wajib pasang” tanpa syarat di halaman ini.
 
 ## Disebut di tweet, tetapi belum diberi perintah instalasi
 
@@ -280,6 +280,6 @@ Apakah sebuah proyek masih dipelihara, string instalasi, dan dependensi semuanya
 
 - **Penilaian praktik dari tweet**: mengapa saat itu direkomendasikan, dan masalah apa yang diselesaikan.
 - **Verifikasi sumber saat ini**: apakah repositorinya tunggal, apakah cara pemasangannya masih berlaku, dan apakah baru-baru ini masih dipelihara.
-- **Saran Bluebook**: hari ini lebih cocok untuk siapa, bagaimana sebaiknya mencobanya, dan dalam kondisi apa jangan memasangnya.
+- **Saran Buku Pi**: hari ini lebih cocok untuk siapa, bagaimana sebaiknya mencobanya, dan dalam kondisi apa jangan memasangnya.
 
 Dengan begitu, tweet mempertahankan garis waktu yang nyata, sedangkan halaman rekomendasi bertugas memberi pilihan yang dapat dijalankan saat ini.

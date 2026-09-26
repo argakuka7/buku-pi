@@ -1,9 +1,9 @@
 ---
 name: bluebook-graduation-review
-description: Meninjau secara hanya-baca cakupan kebutuhan, cakupan perubahan, keterhubungan navigasi, dan bukti verifikasi proyek akhir Bluebook Pi; dipakai untuk pemeriksaan independen setelah implementasi selesai.
+description: Meninjau secara hanya-baca cakupan kebutuhan, cakupan perubahan, keterhubungan navigasi, dan bukti verifikasi proyek akhir Buku Pi; dipakai untuk pemeriksaan independen setelah implementasi selesai.
 ---
 
-# Peninjauan proyek akhir Bluebook
+# Peninjauan proyek akhir Buku Pi
 
 1. Baca dulu file kebutuhan yang ditunjuk pengguna, lalu baca status dan diff Git yang diberikan
    pengguna; jangan menebak apa yang berubah dari ringkasan akhir.

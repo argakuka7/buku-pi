@@ -1,9 +1,9 @@
 ---
 name: bluebook-graduation-review
-description: Review, read-only, the requirement coverage, change scope, navigation linkage, and verification evidence of the Pi Bluebook graduation project; used for an independent check after implementation is complete.
+description: Review, read-only, the requirement coverage, change scope, navigation linkage, and verification evidence of the Buku Pi graduation project; used for an independent check after implementation is complete.
 ---
 
-# Bluebook graduation project review
+# Buku Pi graduation project review
 
 1. Read the requirements file the user points to first, then read the Git status and diff the user
    provides; do not guess what changed from a final summary.

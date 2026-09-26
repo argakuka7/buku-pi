@@ -1,4 +1,4 @@
-# Pi Bluebook | Jalur Belajar Pi Coding Agent (Bahasa Indonesia)
+# Buku Pi | Jalur Belajar Pi Coding Agent (Bahasa Indonesia)
 
 Buku panduan tidak resmi **Pi Coding Agent** (Coding Harness terminal yang minimalis) untuk pemula
 berbahasa Indonesia. Mulai dari instalasi, login, dan tugas pertama yang bisa diverifikasi, lalu
@@ -12,11 +12,11 @@ diterjemahkan ke Bahasa Indonesia.
 Situs ini **dua bahasa**: edisi Bahasa Indonesia di akar (`/`) dan edisi English di `/en/`.
 Keduanya berbagi tema, komponen, dan struktur halaman yang sama; pengalih bahasa tersedia di navbar.
 
-<img src="preview/tour/pi-bluebook-tour-id.webp" alt="Pratinjau situs Pi Bluebook edisi Bahasa Indonesia" width="900">
+<img src="preview/tour/pi-bluebook-tour-id.webp" alt="Pratinjau situs Buku Pi edisi Bahasa Indonesia" width="900">
 
 Edisi Bahasa Indonesia (di atas) dan edisi English di `/en/` (di bawah):
 
-<img src="preview/tour/pi-bluebook-tour-en.webp" alt="Pi Bluebook English edition preview" width="900">
+<img src="preview/tour/pi-bluebook-tour-en.webp" alt="Buku Pi English edition preview" width="900">
 
 [Materi sumber (Bahasa Mandarin)](https://pi.xiaomovps.com) · [Mulai berpraktik](/guide/start-here) ·
 [Baca sistematis](/guide/introduction) · [Laporkan masalah](https://github.com/xiaomoBoy/pi-bluebook/issues)
@@ -36,7 +36,7 @@ Edisi Bahasa Indonesia (di atas) dan edisi English di `/en/` (di bawah):
 | Bagian | Isi |
 | --- | --- |
 | `/mulai` | Peta belajar: 5 modul, 14 pelajaran, estimasi waktu, dan tanda selesai tiap tahap |
-| `/guide/` | Jalur utama Bluebook: 5 modul, 14 pelajaran, dari instalasi sampai verifikasi keamanan |
+| `/guide/` | Jalur utama Buku Pi: 5 modul, 14 pelajaran, dari instalasi sampai verifikasi keamanan |
 | `/cases/` | 8 studi kasus praktik (CASE 01–08) dengan langkah dan daftar periksa |
 | `/reference/` | Referensi cepat: FAQ, panduan penanganan masalah, glosarium, perbandingan Pi/OMP/Selesai |
 | `/plugins/` | Rekomendasi plugin beserta cara memilih dan menilai risikonya |

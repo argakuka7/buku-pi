@@ -13,7 +13,7 @@ next:
 
 # Buku panduan referensi
 
-Halaman ini tidak bertugas mengajar dari nol, dan tidak mewajibkan pembacaan berurutan. Saat menemui sebuah istilah, satu kemampuan, atau satu masalah operasional, masuklah dari topik yang sesuai; jika Anda membaca untuk pertama kali, mulailah dari [Pengantar: Mengapa membaca Bluebook Pi ini](/guide/introduction), lalu lanjutkan mengikuti [alur utama Bluebook](/guide/).
+Halaman ini tidak bertugas mengajar dari nol, dan tidak mewajibkan pembacaan berurutan. Saat menemui sebuah istilah, satu kemampuan, atau satu masalah operasional, masuklah dari topik yang sesuai; jika Anda membaca untuk pertama kali, mulailah dari [Pengantar: Mengapa membaca Buku Pi ini](/guide/introduction), lalu lanjutkan mengikuti [alur utama Buku Pi](/guide/).
 
 ::: info Baca dulu penjelasan edisi ini
 [Sepuluh penilaian yang masih berlaku](/guide/lasting-principles) membedakan kesimpulan saat ini dari arsip pembelajaran asli; [Pedoman dan keterangan edisi belajar terbuka 2026](/guide/edition-2026) mencatat jalur platform, batas waktu verifikasi, aturan pemeliharaan, dan batas hak cipta.
@@ -97,7 +97,7 @@ Perilaku perintah dapat berubah antar versi; tabel ini diverifikasi pada 2026-09
 | `.pi/` | Pengaturan, Extension, Skill, dan lain-lain proyek saat ini | Sumber daya proyek dikendalikan oleh Project Trust |
 | `.agents/skills/` | Skill proyek yang dapat ditemukan oleh beberapa tool Agent | Sumber daya tingkat proyek, asal-usulnya perlu diperiksa dulu |
 | `AGENTS.md`, `CLAUDE.md` | Penjelasan konteks proyek | Pemuatan bawaan tidak dilindungi oleh penolakan Project Trust, dapat dimatikan dengan `--no-context-files` |
-| `docs/public/` | Materi unduhan publik situs Bluebook ini | Setelah build disalin ke path akar situs, jangan menyimpan kredensial |
+| `docs/public/` | Materi unduhan publik situs Buku Pi ini | Setelah build disalin ke path akar situs, jangan menyimpan kredensial |
 
 ## Urutan penanganan masalah
 

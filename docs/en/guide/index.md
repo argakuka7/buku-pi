@@ -1,17 +1,17 @@
 ---
-title: Bluebook main path
-description: Five learning modules, 14 lessons, and a complete section on how Pi works inside the Pi learning Bluebook.
+title: Buku Pi main path
+description: Five learning modules, 14 lessons, and a complete section on how Pi works inside Buku Pi.
 prev:
-  text: Pi Coding Agent Learning Bluebook
+  text: "Buku Pi: Pi Coding Agent Guide"
   link: /en/
 next:
-  text: 'Introduction: Why read this Pi Bluebook'
+  text: 'Introduction: Why read this Buku Pi guide'
   link: /en/guide/introduction
 ---
 
 <span class="library-status">CORE CURRICULUM · 5 modules · 14 lessons + a working-principles section</span>
 
-# Bluebook main path
+# Buku Pi main path
 
 This section handles a complete, continuous, and already-verified learning process. If you want to practice right away, choose a platform entry point from [your first success in 30 minutes](/en/guide/start-here); if you want to read systematically, start with the Introduction, the guidelines, and the Prologue. Readers who can already install, log in, and use Pi normally can go straight to real tasks starting from module two.
 
@@ -19,7 +19,7 @@ Personal tweets and notes on usage experience are not turned directly into tutor
 
 ## Opening · Learn first why it is worth reading
 
-1. [Introduction: Why read this Pi Bluebook](/en/guide/introduction)
+1. [Introduction: Why read this Buku Pi guide](/en/guide/introduction)
 2. [Ten lasting judgments from 98 tweets](/en/guide/lasting-principles)
 3. [Guidelines and notes for the 2026 open learning edition](/en/guide/edition-2026)
 

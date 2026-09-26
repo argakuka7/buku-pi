@@ -216,7 +216,7 @@ Sub-Agents can put exploration, implementation, or review into a separate contex
 - Suitable for: subtasks that can be explained and verified independently, and whose parallel processing really shortens the time.
 - Not suitable for: a first task, vaguely scoped goals like "make the whole project good", and situations where you do not yet understand model cost and session context.
 
-Before installing any sub-Agent, you must make sure of four things: which Provider and model it calls by default; whether it is allowed to run in the background; which tools the subtasks can use; and how to find the actual results after a failure or a stop. The Bluebook continues the discussion of dividing responsibility in [How sub-Agents divide work](/en/guide/subagents), rather than giving an unconditional "must install" answer on this page.
+Before installing any sub-Agent, you must make sure of four things: which Provider and model it calls by default; whether it is allowed to run in the background; which tools the subtasks can use; and how to find the actual results after a failure or a stop. The Buku Pi continues the discussion of dividing responsibility in [How sub-Agents divide work](/en/guide/subagents), rather than giving an unconditional "must install" answer on this page.
 
 ## Mentioned in Tweets, but No Install Command Given Yet
 
@@ -280,6 +280,6 @@ Whether a project is still maintained, the install string, and the dependencies 
 
 - **Practice assessment from tweets**: why it was recommended at the time, and what problem it solved.
 - **Current source verification**: whether the repository is the only one, whether the installation method still applies, and whether it has been maintained recently.
-- **Bluebook advice**: who it better suits today, how best to try it, and under what conditions you should not install it.
+- **Buku Pi advice**: who it better suits today, how best to try it, and under what conditions you should not install it.
 
 That way, the tweets keep a real timeline, while the recommendation page serves to offer choices that can be acted on today.

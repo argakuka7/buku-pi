@@ -7,7 +7,7 @@ next: { text: Kembali ke kursus, link: /guide/ }
 
 <span class="library-status">CASE 08 · Proyek akhir</span>
 
-# Proyek akhir Bluebook Pi
+# Proyek akhir Buku Pi
 
 ## Hasil
 
@@ -21,7 +21,7 @@ Gambar ini memuat tiga aturan keras: Session utama tidak boleh menyetujui rencan
 
 ## Apa yang akan diubah kali ini
 
-Repositori latihan memakai salinan proyek Bluebook Pembelajaran Pi. Tugasnya adalah menambahkan “Daftar periksa penyelesaian tugas” ke dalam buku panduan referensi, sekaligus menghubungkannya dari beranda dan sidebar. Kebutuhannya sengaja dibatasi pada tiga file situs (satu halaman baru, satu daftar isi, satu konfigurasi navigasi) dan satu checkpoint lokal — cukup untuk melatih alur proyek nyata tanpa mengalihkan perhatian ke kode bisnis yang rumit.
+Repositori latihan memakai salinan proyek Buku Pi. Tugasnya adalah menambahkan “Daftar periksa penyelesaian tugas” ke dalam buku panduan referensi, sekaligus menghubungkannya dari beranda dan sidebar. Kebutuhannya sengaja dibatasi pada tiga file situs (satu halaman baru, satu daftar isi, satu konfigurasi navigasi) dan satu checkpoint lokal — cukup untuk melatih alur proyek nyata tanpa mengalihkan perhatian ke kode bisnis yang rumit.
 
 Anda bisa mempratinjau ketiga materi ini lebih dulu; latihan resminya akan menyalinnya dari klon versi tetap:
 
@@ -39,8 +39,8 @@ Jalankan di terminal biasa. Blok berikut memakai repositori latihan `buku-pi`; b
 
 ```bash
 cd ~/Downloads
-git clone https://github.com/argakuka7/buku-pi.git pi-bluebook-graduation
-cd pi-bluebook-graduation
+git clone https://github.com/argakuka7/buku-pi.git buku-pi-graduation
+cd buku-pi-graduation
 git checkout --detach ea68e5f   # ganti dengan commit pada salinan Anda bila hash ini tidak ada
 npm ci
 npm run check:content
@@ -48,7 +48,7 @@ git rev-parse HEAD
 git status --short
 ```
 
-Jika `pi-bluebook-graduation` sudah ada, pakai nama direktori baru, jangan menimpa direktori lama. `git status --short` di awal seharusnya tidak menghasilkan keluaran. Halaman ini secara tetap memakai `ea68e5f` sebagai baseline latihan; `checkout` pada tahap persiapan hanya dipakai untuk berpindah ke versi yang sudah diverifikasi, dan setelah masuk ke Pi tidak ada lagi operasi tulis Git. Simpan nomor commit lengkap dari `git rev-parse HEAD`; hentikan lebih dulu bila materi dan repositori tidak konsisten. Windows Git Bash juga bisa memakai `~/Downloads`; repositori hasil klon baru di sini tidak diletakkan di `pi-practice` milik pelajaran sebelumnya. Commit `ea68e5f` adalah baseline repositori sumber berbahasa Mandarin; bila Anda mengerjakan edisi Bahasa Indonesia, pakai repositori edisi ini dan commit Anda sendiri, lalu catat nomor commit itu di checkpoint.
+Jika `buku-pi-graduation` sudah ada, pakai nama direktori baru, jangan menimpa direktori lama. `git status --short` di awal seharusnya tidak menghasilkan keluaran. Halaman ini secara tetap memakai `ea68e5f` sebagai baseline latihan; `checkout` pada tahap persiapan hanya dipakai untuk berpindah ke versi yang sudah diverifikasi, dan setelah masuk ke Pi tidak ada lagi operasi tulis Git. Simpan nomor commit lengkap dari `git rev-parse HEAD`; hentikan lebih dulu bila materi dan repositori tidak konsisten. Windows Git Bash juga bisa memakai `~/Downloads`; repositori hasil klon baru di sini tidak diletakkan di `pi-practice` milik pelajaran sebelumnya. Commit `ea68e5f` adalah baseline repositori sumber berbahasa Mandarin; bila Anda mengerjakan edisi Bahasa Indonesia, pakai repositori edisi ini dan commit Anda sendiri, lalu catat nomor commit itu di checkpoint.
 
 Saat nanti membuka terminal biasa yang lain, masuk dulu ke direktori repositori latihan, baru jalankan Pi atau pemeriksaan proyek.
 
@@ -56,14 +56,14 @@ Letakkan ketiga materi di samping repositori, bukan di dalamnya:
 
 ```bash
 cd ..
-mkdir -p pi-bluebook-graduation-materials/bluebook-graduation-review
-cp pi-bluebook-graduation/docs/public/examples/graduation-project/requirements.md \
-  pi-bluebook-graduation-materials/requirements.md
-cp pi-bluebook-graduation/docs/public/examples/graduation-project/checkpoint-template.md \
-  pi-bluebook-graduation-materials/checkpoint-template.md
-cp pi-bluebook-graduation/docs/public/examples/graduation-project/bluebook-graduation-review/SKILL.md \
-  pi-bluebook-graduation-materials/bluebook-graduation-review/SKILL.md
-cd pi-bluebook-graduation
+mkdir -p buku-pi-graduation-materials/bluebook-graduation-review
+cp buku-pi-graduation/docs/public/examples/graduation-project/requirements.md \
+  buku-pi-graduation-materials/requirements.md
+cp buku-pi-graduation/docs/public/examples/graduation-project/checkpoint-template.md \
+  buku-pi-graduation-materials/checkpoint-template.md
+cp buku-pi-graduation/docs/public/examples/graduation-project/bluebook-graduation-review/SKILL.md \
+  buku-pi-graduation-materials/bluebook-graduation-review/SKILL.md
+cd buku-pi-graduation
 ```
 
 Judul halaman yang ditetapkan kebutuhan adalah kontrak: jangan menerjemahkan atau menggantinya sendiri, karena pemeriksaan nanti mencocokkannya dengan judul itu.
@@ -82,8 +82,8 @@ pi --name "CASE 08 Proyek akhir" --no-extensions --no-skills --no-context-files 
 Di sini, Skill dan Extension yang ditemukan otomatis dimatikan dulu agar sumber daya yang tidak dikenal tidak mengubah perilaku tugas utama. Tidak memasang Extension bukan berarti melewatkan satu pelajaran, melainkan menilai berdasarkan kebutuhan bahwa “tool yang ada sudah cukup”. Setelah masuk ke Pi, kirim:
 
 ```text
-Baca ../pi-bluebook-graduation-materials/requirements.md dan
-../pi-bluebook-graduation-materials/checkpoint-template.md.
+Baca ../buku-pi-graduation-materials/requirements.md dan
+../buku-pi-graduation-materials/checkpoint-template.md.
 Periksa README repositori saat ini, package.json, beranda buku panduan referensi, konfigurasi navigasi VitePress,
 serta tiga halaman pelajaran yang disebut dalam kebutuhan.
 
@@ -141,7 +141,7 @@ Compaction merapikan konten yang lebih awal menjadi ringkasan dan mempertahankan
 
 ```bash
 pi --name "CASE 08 Review independen" --no-extensions --no-skills --no-context-files \
-  --skill ../pi-bluebook-graduation-materials/bluebook-graduation-review/SKILL.md \
+  --skill ../buku-pi-graduation-materials/bluebook-graduation-review/SKILL.md \
   --tools read,grep,find,ls
 ```
 
@@ -149,7 +149,7 @@ pi --name "CASE 08 Review independen" --no-extensions --no-skills --no-context-f
 
 ```text
 Gunakan bluebook-graduation-review untuk meninjau working tree saat ini.
-File kebutuhan adalah ../pi-bluebook-graduation-materials/requirements.md.
+File kebutuhan adalah ../buku-pi-graduation-materials/requirements.md.
 
 Baca file yang diizinkan dalam kebutuhan, dan periksa apakah isi, navigasi, serta tautan antarpindahnya sudah konsisten.
 Jangan menulis file, menjalankan perintah, atau memasang dependensi. Selisih Git dan hasil build aku sediakan;

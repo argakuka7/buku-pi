@@ -1,5 +1,5 @@
 ---
-title: Written Outside the Bluebook
+title: Written Outside Buku Pi
 description: The original author's personal reflections on Pi, the learning process, notes on mistakes, and the tweet archive.
 prev:
   text: Permissions, isolation, and verification
@@ -9,13 +9,13 @@ next:
   link: /en/tweets/
 ---
 
-<span class="library-status">LEARNING NOTES · Outside the Bluebook</span>
+<span class="library-status">LEARNING NOTES · Outside the Buku Pi</span>
 
-# Written Outside the Bluebook
+# Written Outside Buku Pi
 
-Here I keep my personal reflections, my learning process, and how my assessments have changed. Many of these assessments come from a single real practice; after reading source code or articles, I often go back and correct my earlier understanding. These notes will not be rewritten into an overly tidy path to success, and they do not carry the responsibility of being a Bluebook tutorial.
+Here I keep my personal reflections, my learning process, and how my assessments have changed. Many of these assessments come from a single real practice; after reading source code or articles, I often go back and correct my earlier understanding. These notes will not be rewritten into an overly tidy path to success, and they do not carry the responsibility of being a Buku Pi tutorial.
 
-The following quote is the original text I wrote when I decided to put together the Bluebook.
+The following quote is the original text I wrote when I decided to put together the Buku Pi.
 
 <article class="tweet-entry tweet-entry-featured">
 
@@ -89,7 +89,7 @@ After reading three translations — session portability, context compaction, an
 
 Learning notes will keep the assessments I made at the time as well as later corrections. Some of the early tweets depend on the version at the time, and the language has not been polished again. Everything is kept because the learning process itself includes trial and error.
 
-Content that readers really need to follow will go into the Bluebook's main path, with re-verification of commands, versions, and verification results. The personal notes explain how I got here; the two parts are connected, but they carry different jobs.
+Content that readers really need to follow will go into the Buku Pi's main path, with re-verification of commands, versions, and verification results. The personal notes explain how I got here; the two parts are connected, but they carry different jobs.
 
 [Start reading from the first stage](/en/tweets/01-meet-pi) · [See all six stages](/en/tweets/)
 

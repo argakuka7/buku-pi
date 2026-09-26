@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Bluebook Pembelajaran Pi Coding Agent
+title: "Buku Pi: Panduan Pi Coding Agent"
 titleTemplate: ':title | Jalur Praktik untuk Pemula'
 description: Tutorial sistematis Pi Coding Agent untuk pemula, mulai dari instalasi dan tugas pertama yang bisa diverifikasi, lalu bertahap menguasai Session, Context, Skill, Extension, dan alur kerja Agent jangka panjang.
 ---
@@ -8,8 +8,8 @@ description: Tutorial sistematis Pi Coding Agent untuk pemula, mulai dari instal
 <main class="bluebook-home">
   <section class="bluebook-hero" aria-labelledby="bluebook-title">
     <div class="bluebook-hero__main">
-      <p class="bluebook-kicker"><span>PI BLUEBOOK</span><span>Edisi Pembelajaran Terbuka · 2026</span></p>
-      <h1 id="bluebook-title">Bluebook Pembelajaran Pi Coding Agent</h1>
+      <p class="bluebook-kicker"><span>BUKU PI</span><span>Edisi Pembelajaran Terbuka · 2026</span></p>
+      <h1 id="bluebook-title">Buku Pi: Panduan Pi Coding Agent</h1>
       <p class="bluebook-deck">Mulai dari instalasi dan tugas pertama yang bisa diverifikasi, lalu bertahap memahami Session, Context, Skill, Extension, dan alur kerja jangka panjang.</p>
       <p class="bluebook-intro">Sebuah jalur pembelajaran Coding Harness terminal yang disusun ulang untuk pemula. Selesaikan dulu satu pekerjaan nyata yang kecil hingga tuntas, lalu bangun Pi Anda sendiri selapis demi selapis.</p>
       <div class="bluebook-actions">
@@ -45,7 +45,7 @@ description: Tutorial sistematis Pi Coding Agent untuk pemula, mulai dari instal
     <div class="bluebook-map">
       <a class="bluebook-map__item bluebook-map__item--primary" href="/guide/introduction">
         <span>01 · CORE CURRICULUM</span>
-        <h3>Alur Utama Bluebook</h3>
+        <h3>Alur Utama Buku Pi</h3>
         <p>Inti seluruh situs. Masuk dari Pengantar, melewati 5 modul dan 14 pelajaran, sampai tuntas ke ekstensi, VPS, dan verifikasi keamanan.</p>
         <b>Mulai dari Pengantar →</b>
       </a>
@@ -82,7 +82,7 @@ description: Tutorial sistematis Pi Coding Agent untuk pemula, mulai dari instal
     </div>
     <aside class="bluebook-notes-strip">
       <span>AUTHOR'S NOTES</span>
-      <p><strong>Catatan belajar</strong> memuat 98 tweet, renungan pribadi, dan perubahan penilaian. Ini adalah arsip bahan Bluebook, bukan pengganti tutorial yang sudah diverifikasi.</p>
+      <p><strong>Catatan belajar</strong> memuat 98 tweet, renungan pribadi, dan perubahan penilaian. Ini adalah arsip bahan Buku Pi, bukan pengganti tutorial yang sudah diverifikasi.</p>
       <a href="/journey/">Baca catatan →</a>
     </aside>
   </section>

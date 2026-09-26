@@ -14,7 +14,7 @@ const ID_TEXT = {
     'Alamat yang Anda buka tidak ada atau sudah berpindah. Coba salah satu jalur berikut, atau buka pencarian dengan pintasan ⌘K / Ctrl+K.',
   links: [
     { href: '/mulai', text: 'Peta belajar', note: '5 modul dan 14 pelajaran dalam satu halaman' },
-    { href: '/guide/', text: 'Alur utama Bluebook', note: 'daftar isi lengkap jalur belajar' },
+    { href: '/guide/', text: 'Alur utama Buku Pi', note: 'daftar isi lengkap jalur belajar' },
     { href: '/reference/', text: 'Buku panduan referensi', note: 'FAQ, penanganan masalah, dan daftar istilah' },
     { href: '/cases/', text: 'Daftar studi kasus', note: 'delapan latihan berurutan dengan daftar periksa' }
   ],
@@ -30,7 +30,7 @@ const EN_TEXT = {
     'The address you opened does not exist or has moved. Try one of the following routes, or open search with the ⌘K / Ctrl+K shortcut.',
   links: [
     { href: '/en/mulai', text: 'Learning map', note: '5 modules and 14 lessons on one page' },
-    { href: '/en/guide/', text: 'Bluebook main track', note: 'the complete table of contents for the learning path' },
+    { href: '/en/guide/', text: 'Buku Pi main track', note: 'the complete table of contents for the learning path' },
     { href: '/en/reference/', text: 'Reference guide', note: 'FAQ, troubleshooting, and the glossary' },
     { href: '/en/cases/', text: 'Case study list', note: 'eight exercises in order with checklists' }
   ],

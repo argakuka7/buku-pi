@@ -13,7 +13,7 @@ next:
 
 # Daftar Istilah Populer AI dan Agent
 
-Ini bukan ensiklopedia AI yang berusaha “besar dan lengkap”. Edisi pertama hanya menjelaskan 20 istilah yang berulang muncul di isi utama Bluebook Pi dan 98 catatan pembelajaran, serta langsung memengaruhi keputusan saat memakai Pi.
+Ini bukan ensiklopedia AI yang berusaha “besar dan lengkap”. Edisi pertama hanya menjelaskan 20 istilah yang berulang muncul di isi utama Buku Pi dan 98 catatan pembelajaran, serta langsung memengaruhi keputusan saat memakai Pi.
 
 Setiap istilah dimulai dengan penjelasan bahasa manusia, lalu dijelaskan apa artinya di dalam Pi. Saat perlu praktik, lanjutkan ke pelajaran terkait; keterangan yang menyangkut versi dan batas produk diverifikasi pada **2026-09-11**.
 
@@ -67,7 +67,7 @@ Setiap istilah dimulai dengan penjelasan bahasa manusia, lalu dijelaskan apa art
 
 **Penjelasan bahasa manusia:** Agent Runtime adalah lapisan lingkungan dan siklus hidup yang membuat Agent benar-benar berjalan, dengan perhatian pada status tugas, proses eksekusi, cara pemulihan, dan bagaimana ia dipanggil dalam jangka panjang oleh program lain.
 
-**Artinya di dalam Pi:** Pi memiliki komponen Runtime seperti Session, RPC, SDK, dan event yang dapat diperluas, tetapi “Agent Runtime” bukan nama fitur produk jadi yang berdiri sendiri dalam dokumentasi resmi saat ini. Bluebook memakai istilah ini untuk memahami bagaimana Pi merentang dari satu interaksi terminal ke cara kerja jangka panjang yang dapat disematkan dan dipulihkan; ini tidak berarti menjalankan `pi` otomatis memberi Anda proses latar belakang yang menetap, tugas terjadwal, atau jaminan keamanan tanpa pengawasan.
+**Artinya di dalam Pi:** Pi memiliki komponen Runtime seperti Session, RPC, SDK, dan event yang dapat diperluas, tetapi “Agent Runtime” bukan nama fitur produk jadi yang berdiri sendiri dalam dokumentasi resmi saat ini. Buku Pi memakai istilah ini untuk memahami bagaimana Pi merentang dari satu interaksi terminal ke cara kerja jangka panjang yang dapat disematkan dan dipulihkan; ini tidak berarti menjalankan `pi` otomatis memberi Anda proses latar belakang yang menetap, tugas terjadwal, atau jaminan keamanan tanpa pengawasan.
 
 **Terkait:** [Session](#session) · [Agent Loop](#agent-loop) · [VPS dan tugas panjang](/guide/vps-and-long-running)
 

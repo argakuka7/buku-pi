@@ -1,17 +1,17 @@
 ---
-title: Alur utama Bluebook
-description: Lima modul belajar, 14 pelajaran, dan bagian lengkap cara kerja Pi dalam Bluebook pembelajaran Pi.
+title: Alur utama Buku Pi
+description: Lima modul belajar, 14 pelajaran, dan bagian lengkap cara kerja Pi dalam Buku Pi.
 prev:
-  text: Bluebook Pembelajaran Pi Coding Agent
+  text: "Buku Pi: Panduan Pi Coding Agent"
   link: /
 next:
-  text: 'Pengantar: Mengapa membaca Bluebook Pi ini'
+  text: 'Pengantar: Mengapa membaca Buku Pi ini'
   link: /guide/introduction
 ---
 
 <span class="library-status">CORE CURRICULUM · 5 modul · 14 pelajaran + bagian prinsip kerja</span>
 
-# Alur utama Bluebook
+# Alur utama Buku Pi
 
 Bagian ini menangani proses belajar yang lengkap, berkesinambungan, dan sudah diverifikasi. Jika ingin langsung praktik, pilih pintu masuk platform dari [keberhasilan pertama dalam 30 menit](/guide/start-here); jika ingin membaca secara sistematis, mulailah dari Pengantar, pedoman, dan Prolog. Pembaca yang sudah bisa memasang, login, dan menggunakan Pi secara normal dapat langsung masuk ke tugas nyata mulai modul kedua.
 
@@ -19,7 +19,7 @@ Tweet pribadi dan catatan pengalaman penggunaan tidak langsung dijadikan kesimpu
 
 ## Pembuka · Kenali dulu alasan membacanya
 
-1. [Pengantar: Mengapa membaca Bluebook Pi ini](/guide/introduction)
+1. [Pengantar: Mengapa membaca Buku Pi ini](/guide/introduction)
 2. [Sepuluh penilaian yang tersisa dari 98 tweet](/guide/lasting-principles)
 3. [Pedoman dan keterangan edisi belajar terbuka 2026](/guide/edition-2026)
 
@@ -86,7 +86,7 @@ Setelah instalasi selesai, Anda tidak perlu langsung berhenti untuk mempelajari 
 
 **Tanda selesai:** Anda membangun checkpoint, jalur pemulihan, dan batas izin, sehingga tugas panjang dapat dilanjutkan maupun dihentikan dengan aman.
 
-**Latihan pendamping:** [CASE 06 · Memulihkan dari checkpoint](/cases/checkpoint-recovery) · [CASE 07 · Review keamanan sebelum tugas](/cases/safe-review) · [CASE 08 · Proyek akhir Bluebook Pi](/cases/graduation-project)
+**Latihan pendamping:** [CASE 06 · Memulihkan dari checkpoint](/cases/checkpoint-recovery) · [CASE 07 · Review keamanan sebelum tugas](/cases/safe-review) · [CASE 08 · Proyek akhir Buku Pi](/cases/graduation-project)
 
 ## Saat perlu mencari, bukan melanjutkan pelajaran
 

@@ -1,8 +1,8 @@
 ---
-title: 'Pengantar: Mengapa membaca Bluebook Pi ini'
-description: Pahami dulu apa itu Pi, untuk siapa ia cocok, dan mengapa Bluebook ini dimulai dari satu hal kecil yang bisa diverifikasi.
+title: 'Pengantar: Mengapa membaca Buku Pi ini'
+description: Pahami dulu apa itu Pi, untuk siapa ia cocok, dan mengapa Buku Pi ini dimulai dari satu hal kecil yang bisa diverifikasi.
 prev:
-  text: Alur utama Bluebook
+  text: Alur utama Buku Pi
   link: /guide/
 next:
   text: Sepuluh penilaian yang tersisa dari 98 tweet
@@ -11,7 +11,7 @@ next:
 
 <span class="library-status">INTRODUCTION · Mulai dari sini</span>
 
-# Mengapa membaca Bluebook Pi ini
+# Mengapa membaca Buku Pi ini
 
 Anda mungkin sudah pernah memakai ChatGPT, Claude, atau produk obrolan lain: buka jendela, ajukan pertanyaan, tunggu jawaban. Saat pertama kali membuka Pi, ia juga tampak seperti jendela terminal tempat mengetik teks, tetapi itu bukan cara terbaik untuk memahaminya.
 
@@ -48,9 +48,9 @@ Karena itu, buku ini tidak akan langsung memberi Anda daftar lengkap semua fitur
 
 Jika ingin langsung praktik, masuklah ke [Praktik dari nol](/guide/start-here), selesaikan instalasi, autentikasi, dan tugas pertama sesuai platform, lalu kembali untuk memahami prinsipnya. Jika ingin membaca secara sistematis, lanjutkan dengan urutan Pengantar, sepuluh penilaian, pedoman, Prolog, dan lima modul. Kisah penulis dan sepuluh penilaian bukan prasyarat instalasi.
 
-Pembaca yang sudah bisa memakai Pi secara stabil dapat memilih modul terkait dari [alur utama Bluebook](/guide/); saat menemui konsep konkret, barulah periksa [buku panduan referensi](/reference/); jika ingin tahu bagaimana penilaian itu terbentuk, lihat kembali [Catatan belajar](/journey/). Terjemahan berlisensi resmi menyediakan pembahasan lengkap penulis asli, tetapi tidak menggantikan jalur operasi berbahasa Mandarin dalam pelajaran.
+Pembaca yang sudah bisa memakai Pi secara stabil dapat memilih modul terkait dari [alur utama Buku Pi](/guide/); saat menemui konsep konkret, barulah periksa [buku panduan referensi](/reference/); jika ingin tahu bagaimana penilaian itu terbentuk, lihat kembali [Catatan belajar](/journey/). Terjemahan berlisensi resmi menyediakan pembahasan lengkap penulis asli, tetapi tidak menggantikan jalur operasi berbahasa Mandarin dalam pelajaran.
 
-Halaman berikutnya akan menampilkan secara terpusat penilaian yang berulang kali muncul dalam 98 tweet dan masih berlaku hingga edisi ini diselesaikan. Tweet asli mempertahankan eksplorasi dan perubahan pada masanya, sedangkan Bluebook hanya menanggung kesimpulan saat ini.
+Halaman berikutnya akan menampilkan secara terpusat penilaian yang berulang kali muncul dalam 98 tweet dan masih berlaku hingga edisi ini diselesaikan. Tweet asli mempertahankan eksplorasi dan perubahan pada masanya, sedangkan Buku Pi hanya menanggung kesimpulan saat ini.
 
 ## Bacaan lanjutan
 

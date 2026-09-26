@@ -19,7 +19,7 @@ As of 2026-09-09, the official documentation clearly states that Pi's core has n
 
 ## What kind of task is suitable to divide
 
-Subtasks that are suitable to run in parallel have two traits: clear boundaries and the ability to be handed off independently. For example, one update to this Bluebook's content can be divided into:
+Subtasks that are suitable to run in parallel have two traits: clear boundaries and the ability to be handed off independently. For example, one update to this Buku Pi's content can be divided into:
 
 | Role | Input | Result |
 | --- | --- | --- |

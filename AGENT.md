@@ -1,8 +1,8 @@
-# Panduan Repositori — Pi Bluebook (Edisi Bahasa Indonesia)
+# Panduan Repositori — Buku Pi (Edisi Bahasa Indonesia)
 
 ## Posisi proyek
 
-Ini adalah edisi Bahasa Indonesia dari **Pi Bluebook**: panduan tidak resmi Pi Coding Agent untuk
+Ini adalah edisi Bahasa Indonesia dari **Buku Pi**: panduan tidak resmi Pi Coding Agent untuk
 pemula, dibangun dengan VitePress. Alur belajar tetap sama dengan sumbernya: instalasi, login, dan
 tugas pertama yang bisa diverifikasi, lalu file & sesi, konteks, Skill, Extension, subagent, tugas
 panjang, dan verifikasi keamanan.

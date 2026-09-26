@@ -19,7 +19,7 @@ Hingga 2026-09-09, pihak resmi secara jelas menyatakan bahwa inti Pi tidak memil
 
 ## Tugas seperti apa yang cocok dibagi
 
-Subtugas yang cocok dijalankan secara paralel memiliki dua ciri: batasnya jelas dan dapat diserahkan secara mandiri. Misalnya, satu pembaruan konten Bluebook ini dapat dibagi menjadi:
+Subtugas yang cocok dijalankan secara paralel memiliki dua ciri: batasnya jelas dan dapat diserahkan secara mandiri. Misalnya, satu pembaruan konten Buku Pi ini dapat dibagi menjadi:
 
 | Peran | Input | Hasil |
 | --- | --- | --- |

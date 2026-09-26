@@ -79,7 +79,7 @@ export const nav = [
 export const sidebar = {
       '/en/guide/': [
         {
-          text: 'Bluebook',
+          text: 'Buku Pi',
           collapsed: true,
           items: [
             { text: 'Full table of contents', link: '/en/guide/' },
@@ -158,7 +158,7 @@ export const sidebar = {
           collapsed: true,
           items: [
             { text: 'Case library and how to use it', link: '/en/cases/' },
-            { text: 'Full Bluebook table of contents', link: '/en/guide/' }
+            { text: 'Full Buku Pi table of contents', link: '/en/guide/' }
           ]
         },
         {
@@ -186,7 +186,7 @@ export const sidebar = {
           text: 'Capstone',
           collapsed: true,
           items: [
-            { text: 'CASE 08 · Pi Bluebook capstone project', link: '/en/cases/graduation-project' }
+            { text: 'CASE 08 · Buku Pi capstone project', link: '/en/cases/graduation-project' }
           ]
         },
         {
@@ -265,7 +265,7 @@ export const sidebar = {
           text: 'Keep learning',
           collapsed: true,
           items: [
-            { text: 'Full Bluebook table of contents', link: '/en/guide/' },
+            { text: 'Full Buku Pi table of contents', link: '/en/guide/' },
             { text: '8 hands-on case studies', link: '/en/cases/' }
           ]
         }
@@ -334,7 +334,7 @@ export const sidebar = {
           ]
         },
         {
-          text: 'Back to the Bluebook',
+          text: 'Back to the Buku Pi',
           collapsed: true,
           items: [
             { text: 'From Prompt to Agent Loop', link: '/en/guide/how-pi-works' },
@@ -347,7 +347,7 @@ export const sidebar = {
           text: 'Learning notes',
           collapsed: true,
           items: [
-            { text: 'Writing beyond the Bluebook', link: '/en/journey/' },
+            { text: 'Writing beyond the Buku Pi', link: '/en/journey/' },
             { text: 'Why sessions and context stay in your hands', link: '/en/journey/why-pi-keeps-context-editable' },
             { text: '98-tweet archive', link: '/en/tweets/' }
           ]
@@ -369,7 +369,7 @@ export const sidebar = {
           collapsed: true,
           items: [
             { text: 'Ten judgments that still hold', link: '/en/guide/lasting-principles' },
-            { text: 'Full Bluebook table of contents', link: '/en/guide/' }
+            { text: 'Full Buku Pi table of contents', link: '/en/guide/' }
           ]
         }
       ],
@@ -378,7 +378,7 @@ export const sidebar = {
           text: 'Learning notes',
           collapsed: true,
           items: [
-            { text: 'Writing beyond the Bluebook', link: '/en/journey/' },
+            { text: 'Writing beyond the Buku Pi', link: '/en/journey/' },
             { text: 'Why sessions and context stay in your hands', link: '/en/journey/why-pi-keeps-context-editable' },
             { text: '98-tweet archive', link: '/en/tweets/' }
           ]
@@ -400,7 +400,7 @@ export const sidebar = {
           collapsed: true,
           items: [
             { text: 'Ten judgments that still hold', link: '/en/guide/lasting-principles' },
-            { text: 'Full Bluebook table of contents', link: '/en/guide/' }
+            { text: 'Full Buku Pi table of contents', link: '/en/guide/' }
           ]
         }
       ]
