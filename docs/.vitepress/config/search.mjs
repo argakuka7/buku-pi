@@ -2,57 +2,99 @@
 // Tokenizer netral bahasa: cocok untuk teks Indonesia maupun English.
 const tokenize = (text) => String(text).toLowerCase().match(/[\p{L}\p{N}]+/gu) ?? []
 
-// Grup padanan istilah: Indonesia ↔ English, plus sinonim harian.
+// Padanan istilah Indonesia ↔ English plus sinonim harian.
 //
-// Catatan penting: miniSearch menggabungkan seluruh istilah hasil ekspansi dengan operator
-// AND (searchOptions.combineWith). Karena itu setiap grup harus SIMETRIS — setiap anggota
-// memetakan ke seluruh anggota lain — dan ekspansi dipasang di options.processTerm (dipakai
-// saat indeks dibuat DAN saat kueri), sehingga istilah grup selalu muncul bersama di indeks.
-// Tanpa itu, kueri seperti "Skill" akan menuntut semua sinonim sekaligus dan tidak menemukan apa pun.
-const SYNONYM_GROUPS = [
-  ['instalasi', 'pemasangan', 'install'],
-  ['konfigurasi', 'pengaturan', 'setting'],
-  ['akun', 'account'],
-  ['biaya', 'harga', 'tarif', 'cost'],
-  ['sesi', 'session'],
-  ['konteks', 'context'],
-  ['pemadatan', 'compaction'],
-  ['kesalahan', 'error', 'galat'],
-  ['masalah', 'kendala'],
-  ['izin', 'permission'],
-  ['keamanan', 'security', 'safety'],
-  ['subagent', 'subagen'],
-  ['ekstensi', 'extension', 'plugin'],
-  ['skill', 'keterampilan', 'keahlian'],
-  ['berkas', 'file'],
-  ['direktori', 'folder'],
-  ['perintah', 'command', 'terminal'],
-  ['versi', 'rilis', 'release'],
-  ['pembaruan', 'update', 'pembaharuan'],
-  ['hapus', 'uninstall', 'menghapus'],
-  ['panduan', 'guide', 'dokumentasi'],
-  ['latihan', 'praktik', 'practice'],
-  ['tugas', 'task', 'pekerjaan'],
-  ['verifikasi', 'cek', 'memeriksa'],
-  ['jalur', 'alur'],
-  ['cache', 'singgahan'],
-  ['pemulihan', 'recovery', 'restore'],
-  ['jadwal', 'tenggat', 'deadline'],
-  ['agen', 'agent'],
-  ['pemula', 'beginner'],
-  ['peta', 'map'],
-]
-
-const SYNONYMS = {}
-for (const group of SYNONYM_GROUPS) {
-  for (const term of group) {
-    SYNONYMS[term] = group.filter((other) => other !== term)
-  }
-}
-
+// Dua hal penting:
+// 1. miniSearch menggabungkan istilah hasil ekspansi dengan operator AND (searchOptions.combineWith),
+//    jadi setiap grup harus SIMETRIS: setiap anggota memetakan ke seluruh anggota lain.
+// 2. VitePress menyerialkan fungsi config ini ke peramban dengan mengevaluasi ulang sumbernya,
+//    sehingga fungsi di bawah WAJIB mandiri (tanpa variabel dari luar) atau pencarian di klien
+//    akan gagal dengan "SYNONYMS is not defined". Karena itu peta ditulis inline di dalam fungsi.
 const expandTerm = (term) => {
   const key = String(term).toLowerCase()
-  const extra = SYNONYMS[key]
+  const map = {
+    account: ['akun'],
+    agen: ['agent'],
+    agent: ['agen'],
+    akun: ['account'],
+    alur: ['jalur'],
+    beginner: ['pemula'],
+    berkas: ['file'],
+    biaya: ['harga', 'tarif', 'cost'],
+    cache: ['singgahan'],
+    cek: ['verifikasi', 'memeriksa'],
+    command: ['perintah', 'terminal'],
+    compaction: ['pemadatan'],
+    context: ['konteks'],
+    cost: ['biaya', 'harga', 'tarif'],
+    deadline: ['jadwal', 'tenggat'],
+    direktori: ['folder'],
+    dokumentasi: ['panduan', 'guide'],
+    ekstensi: ['extension', 'plugin'],
+    error: ['kesalahan', 'galat'],
+    extension: ['ekstensi', 'plugin'],
+    file: ['berkas'],
+    folder: ['direktori'],
+    galat: ['kesalahan', 'error'],
+    guide: ['panduan', 'dokumentasi'],
+    hapus: ['uninstall', 'menghapus'],
+    harga: ['biaya', 'tarif', 'cost'],
+    instalasi: ['pemasangan', 'install'],
+    install: ['instalasi', 'pemasangan'],
+    izin: ['permission'],
+    jadwal: ['tenggat', 'deadline'],
+    jalur: ['alur'],
+    keahlian: ['skill', 'keterampilan'],
+    keamanan: ['security', 'safety'],
+    kendala: ['masalah'],
+    kesalahan: ['error', 'galat'],
+    keterampilan: ['skill', 'keahlian'],
+    konfigurasi: ['pengaturan', 'setting'],
+    konteks: ['context'],
+    latihan: ['praktik', 'practice'],
+    map: ['peta'],
+    masalah: ['kendala'],
+    memeriksa: ['verifikasi', 'cek'],
+    menghapus: ['hapus', 'uninstall'],
+    panduan: ['guide', 'dokumentasi'],
+    pekerjaan: ['tugas', 'task'],
+    pemadatan: ['compaction'],
+    pemasangan: ['instalasi', 'install'],
+    pembaharuan: ['pembaruan', 'update'],
+    pembaruan: ['update', 'pembaharuan'],
+    pemula: ['beginner'],
+    pemulihan: ['recovery', 'restore'],
+    pengaturan: ['konfigurasi', 'setting'],
+    perintah: ['command', 'terminal'],
+    permission: ['izin'],
+    peta: ['map'],
+    plugin: ['ekstensi', 'extension'],
+    practice: ['latihan', 'praktik'],
+    praktik: ['latihan', 'practice'],
+    recovery: ['pemulihan', 'restore'],
+    release: ['versi', 'rilis'],
+    restore: ['pemulihan', 'recovery'],
+    rilis: ['versi', 'release'],
+    safety: ['keamanan', 'security'],
+    security: ['keamanan', 'safety'],
+    sesi: ['session'],
+    session: ['sesi'],
+    setting: ['konfigurasi', 'pengaturan'],
+    singgahan: ['cache'],
+    skill: ['keterampilan', 'keahlian'],
+    subagen: ['subagent'],
+    subagent: ['subagen'],
+    tarif: ['biaya', 'harga', 'cost'],
+    task: ['tugas', 'pekerjaan'],
+    tenggat: ['jadwal', 'deadline'],
+    terminal: ['perintah', 'command'],
+    tugas: ['task', 'pekerjaan'],
+    uninstall: ['hapus', 'menghapus'],
+    update: ['pembaruan', 'pembaharuan'],
+    verifikasi: ['cek', 'memeriksa'],
+    versi: ['rilis', 'release'],
+  }
+  const extra = map[key]
   return extra ? [key, ...extra] : key
 }
 
