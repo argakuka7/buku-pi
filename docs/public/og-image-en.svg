@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Bluebook Pi Coding Agent — English edition social card</title>
+  <desc id="desc">English edition title of the Pi Coding Agent Bluebook on cream grid paper, with the learning path line and a dark blue edition panel</desc>
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#26313a" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#f3f0e8"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect x="40" y="40" width="1120" height="550" fill="#fbfaf6" stroke="#c9c7c0" stroke-width="2"/>
+  <rect x="790" y="40" width="370" height="550" fill="#26313a"/>
+
+  <text x="96" y="106" fill="#276d89" font-family="SFMono-Regular, Menlo, monospace" font-size="18" font-weight="700" letter-spacing="4">PI BLUEBOOK</text>
+  <text x="704" y="106" fill="#276d89" font-family="SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700" text-anchor="end" letter-spacing="2">OPEN EDITION · 2026</text>
+  <line x1="96" y1="135" x2="704" y2="135" stroke="#c9c7c0" stroke-width="2"/>
+
+  <text x="94" y="235" fill="#26313a" font-family="Iowan Old Style, Baskerville, Georgia, serif" font-size="62" font-style="italic" font-weight="600">Pi Coding Agent</text>
+  <text x="96" y="307" fill="#26313a" font-family="Iowan Old Style, Baskerville, Georgia, serif" font-size="56" font-weight="600">Learning Bluebook</text>
+  <text x="96" y="362" fill="#26313a" font-family="Iowan Old Style, Baskerville, Georgia, serif" font-size="26" font-weight="600">From your first verifiable task</text>
+  <text x="96" y="396" fill="#26313a" font-family="Iowan Old Style, Baskerville, Georgia, serif" font-size="26" font-weight="600">to a controlled agent workflow.</text>
+
+  <rect x="96" y="423" width="150" height="38" fill="#276d89"/>
+  <text x="171" y="448" fill="#fbfaf6" font-family="SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="2">SCENARIO</text>
+  <text x="264" y="449" fill="#65727d" font-family="SFMono-Regular, Menlo, monospace" font-size="17">→ Concept → Practice → Verify</text>
+  <text x="96" y="538" fill="#65727d" font-family="SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="2">pi-bluebook-id.pages.dev/en/</text>
+
+  <text x="848" y="206" fill="#f8f5ed" font-family="Iowan Old Style, Baskerville, serif" font-size="142">P</text>
+  <circle cx="960" cy="215" r="16" fill="#4f90aa"/>
+  <text x="848" y="280" fill="#a9b0b5" font-family="SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="3">ENGLISH EDITION</text>
+  <line x1="848" y1="310" x2="1100" y2="310" stroke="#65727d" stroke-opacity=".6"/>
+  <text x="848" y="354" fill="#a9b0b5" font-family="SFMono-Regular, Menlo, monospace" font-size="15">Main course</text>
+  <text x="1100" y="354" fill="#f8f5ed" font-family="SFMono-Regular, Menlo, monospace" font-size="17" text-anchor="end">14 lessons</text>
+  <line x1="848" y1="374" x2="1100" y2="374" stroke="#65727d" stroke-opacity=".45"/>
+  <text x="848" y="418" fill="#a9b0b5" font-family="SFMono-Regular, Menlo, monospace" font-size="15">Learning modules</text>
+  <text x="1100" y="418" fill="#f8f5ed" font-family="SFMono-Regular, Menlo, monospace" font-size="17" text-anchor="end">5 modules</text>
+  <line x1="848" y1="438" x2="1100" y2="438" stroke="#65727d" stroke-opacity=".45"/>
+  <text x="848" y="482" fill="#a9b0b5" font-family="SFMono-Regular, Menlo, monospace" font-size="15">Case study library</text>
+  <text x="1100" y="482" fill="#f8f5ed" font-family="SFMono-Regular, Menlo, monospace" font-size="17" text-anchor="end">8 cases</text>
+</svg>

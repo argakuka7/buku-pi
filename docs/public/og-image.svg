@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Sampul berbagi Bluebook Pi Coding Agent</title>
+  <desc id="desc">Judul Bluebook Pi Coding Agent edisi Bahasa Indonesia di atas kertas bergaris krem, keterangan jalur belajar, dan panel informasi edisi berwarna biru tua</desc>
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#26313a" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#f3f0e8"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect x="40" y="40" width="1120" height="550" fill="#fbfaf6" stroke="#c9c7c0" stroke-width="2"/>
+  <rect x="790" y="40" width="370" height="550" fill="#26313a"/>
+
+  <text x="96" y="106" fill="#276d89" font-family="SFMono-Regular, Menlo, monospace" font-size="18" font-weight="700" letter-spacing="4">PI BLUEBOOK</text>
+  <text x="704" y="106" fill="#276d89" font-family="SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700" text-anchor="end" letter-spacing="2">EDISI TERBUKA · 2026</text>
+  <line x1="96" y1="135" x2="704" y2="135" stroke="#c9c7c0" stroke-width="2"/>
+
+  <text x="94" y="235" fill="#26313a" font-family="Iowan Old Style, Baskerville, Georgia, serif" font-size="62" font-style="italic" font-weight="600">Pi Coding Agent</text>
+  <text x="96" y="307" fill="#26313a" font-family="Iowan Old Style, Baskerville, Georgia, serif" font-size="54" font-weight="600">Bluebook Pembelajaran</text>
+  <text x="96" y="362" fill="#26313a" font-family="Iowan Old Style, Baskerville, Georgia, serif" font-size="26" font-weight="600">Dari tugas pertama yang bisa</text>
+  <text x="96" y="396" fill="#26313a" font-family="Iowan Old Style, Baskerville, Georgia, serif" font-size="26" font-weight="600">diverifikasi menuju alur kerja Agent.</text>
+
+  <rect x="96" y="423" width="140" height="38" fill="#276d89"/>
+  <text x="166" y="448" fill="#fbfaf6" font-family="SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="2">SKENARIO</text>
+  <text x="254" y="449" fill="#65727d" font-family="SFMono-Regular, Menlo, monospace" font-size="17">→ Konsep → Praktik → Verifikasi</text>
+  <text x="96" y="538" fill="#65727d" font-family="SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="2">pi-bluebook-id.pages.dev</text>
+
+  <text x="848" y="206" fill="#f8f5ed" font-family="Iowan Old Style, Baskerville, serif" font-size="142">P</text>
+  <circle cx="960" cy="215" r="16" fill="#4f90aa"/>
+  <text x="848" y="280" fill="#a9b0b5" font-family="SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="3">EDISI INDONESIA</text>
+  <line x1="848" y1="310" x2="1100" y2="310" stroke="#65727d" stroke-opacity=".6"/>
+  <text x="848" y="354" fill="#a9b0b5" font-family="SFMono-Regular, Menlo, monospace" font-size="15">Kursus utama</text>
+  <text x="1100" y="354" fill="#f8f5ed" font-family="SFMono-Regular, Menlo, monospace" font-size="17" text-anchor="end">14 pelajaran</text>
+  <line x1="848" y1="374" x2="1100" y2="374" stroke="#65727d" stroke-opacity=".45"/>
+  <text x="848" y="418" fill="#a9b0b5" font-family="SFMono-Regular, Menlo, monospace" font-size="15">Modul belajar</text>
+  <text x="1100" y="418" fill="#f8f5ed" font-family="SFMono-Regular, Menlo, monospace" font-size="17" text-anchor="end">5 modul</text>
+  <line x1="848" y1="438" x2="1100" y2="438" stroke="#65727d" stroke-opacity=".45"/>
+  <text x="848" y="482" fill="#a9b0b5" font-family="SFMono-Regular, Menlo, monospace" font-size="15">Arsip belajar</text>
+  <text x="1100" y="482" fill="#f8f5ed" font-family="SFMono-Regular, Menlo, monospace" font-size="17" text-anchor="end">98 tulisan</text>
+</svg>

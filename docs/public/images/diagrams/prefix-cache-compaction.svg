@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="prefix-cache-compaction-title prefix-cache-compaction-desc">
+    <title id="prefix-cache-compaction-title">Batas prefix cache dan pemadatan</title>
+    <desc id="prefix-cache-compaction-desc">Ronde berikutnya menambahkan pesan setelah prefix input yang sama, sehingga berpeluang memakai ulang prompt cache; pemadatan mengganti riwayat lama dengan ringkasan dan mempertahankan pesan terbaru, lalu membangun ulang cache dari titik perubahan.</desc>
+    <defs><style>@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400;500;600&amp;display=swap');</style>
+      <marker id="prefix-cache-compaction-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#65727d"/></marker>
+      <marker id="prefix-cache-compaction-arrow-accent" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#4f90aa"/></marker>
+      <marker id="prefix-cache-compaction-arrow-link" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#276d89"/></marker>
+    </defs>
+    <rect width="960" height="600" fill="#fbfaf6"/>
+
+    <text x="40" y="72" fill="#65727d" font-size="12" font-family="PingFang SC,Microsoft YaHei,sans-serif">Tugas yang sama, tiga kali input dikirim ke model</text>
+    <line x1="40" y1="88" x2="920" y2="88" stroke="#26313a" stroke-opacity="0.12" stroke-width="0.8"/>
+    <line x1="128" y1="216" x2="128" y2="256" stroke="#65727d" stroke-width="1" marker-end="url(#prefix-cache-compaction-arrow)"/>
+    <line x1="128" y1="364" x2="128" y2="404" stroke="#65727d" stroke-width="1" marker-end="url(#prefix-cache-compaction-arrow)"/>
+    <text x="40" y="240" fill="#65727d" font-size="12" font-family="PingFang SC,Microsoft YaHei,sans-serif">Tambahkan terus</text>
+    <text x="40" y="388" fill="#65727d" font-size="12" font-family="PingFang SC,Microsoft YaHei,sans-serif">Jalankan pemadatan</text>
+
+    <rect x="40" y="116" width="68" height="12" rx="2" fill="none" stroke="#65727d" stroke-opacity="0.45" stroke-width="0.8"/><text x="74" y="125" fill="#65727d" font-size="8" font-family="SFMono-Regular,Consolas,monospace" text-anchor="middle">REQUEST</text>
+    <text x="40" y="164" fill="#26313a" font-size="16" font-weight="600" font-family="PingFang SC,Microsoft YaHei,sans-serif">Ronde 1</text>
+    <text x="40" y="188" fill="#65727d" font-size="12" font-family="PingFang SC,Microsoft YaHei,sans-serif">Input pertama</text>
+    <rect x="200" y="112" width="392" height="104" rx="6" fill="#ffffff" stroke="#26313a" stroke-width="1"/>
+    <rect x="212" y="124" width="48" height="12" rx="2" fill="none" stroke="#26313a" stroke-opacity="0.38" stroke-width="0.8"/><text x="236" y="133" fill="#65727d" font-size="8" font-family="SFMono-Regular,Consolas,monospace" text-anchor="middle">PREFIX</text>
+    <text x="396" y="164" fill="#26313a" font-size="16" font-weight="600" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Prefix yang ada</text><text x="396" y="188" fill="#65727d" font-size="12" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Sistem, tool, dan riwayat lama</text>
+    <rect x="592" y="112" width="192" height="104" rx="6" fill="#ffffff" stroke="#26313a" stroke-width="1"/>
+    <rect x="604" y="124" width="40" height="12" rx="2" fill="none" stroke="#26313a" stroke-opacity="0.38" stroke-width="0.8"/><text x="624" y="133" fill="#65727d" font-size="8" font-family="SFMono-Regular,Consolas,monospace" text-anchor="middle">TAIL</text>
+    <text x="688" y="164" fill="#26313a" font-size="16" font-weight="600" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Pesan A</text><text x="688" y="188" fill="#65727d" font-size="12" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Konten yang baru ditambahkan</text>
+
+    <rect x="40" y="264" width="68" height="12" rx="2" fill="none" stroke="#65727d" stroke-opacity="0.45" stroke-width="0.8"/><text x="74" y="273" fill="#65727d" font-size="8" font-family="SFMono-Regular,Consolas,monospace" text-anchor="middle">APPEND</text>
+    <text x="40" y="312" fill="#26313a" font-size="16" font-weight="600" font-family="PingFang SC,Microsoft YaHei,sans-serif">Ronde 2</text>
+    <text x="40" y="336" fill="#65727d" font-size="12" font-family="PingFang SC,Microsoft YaHei,sans-serif">Prefix sama</text>
+    <rect x="200" y="260" width="392" height="104" rx="6" fill="#ffffff" stroke="#26313a" stroke-width="1"/>
+    <rect x="212" y="272" width="48" height="12" rx="2" fill="none" stroke="#26313a" stroke-opacity="0.38" stroke-width="0.8"/><text x="236" y="281" fill="#65727d" font-size="8" font-family="SFMono-Regular,Consolas,monospace" text-anchor="middle">PREFIX</text>
+    <text x="396" y="312" fill="#26313a" font-size="16" font-weight="600" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Prefix yang ada</text><text x="396" y="336" fill="#65727d" font-size="12" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Sama persis dengan ronde sebelumnya</text>
+    <rect x="592" y="260" width="192" height="104" rx="6" fill="#ffffff" stroke="#26313a" stroke-width="1"/>
+    <rect x="604" y="272" width="40" height="12" rx="2" fill="none" stroke="#26313a" stroke-opacity="0.38" stroke-width="0.8"/><text x="624" y="281" fill="#65727d" font-size="8" font-family="SFMono-Regular,Consolas,monospace" text-anchor="middle">TAIL</text>
+    <text x="688" y="312" fill="#26313a" font-size="16" font-weight="600" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Pesan A</text><text x="688" y="336" fill="#65727d" font-size="12" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Konten yang baru ditambahkan</text>
+    <rect x="784" y="260" width="120" height="104" rx="6" fill="#ffffff" stroke="#26313a" stroke-width="1"/>
+    <rect x="796" y="272" width="40" height="12" rx="2" fill="none" stroke="#26313a" stroke-opacity="0.38" stroke-width="0.8"/><text x="816" y="281" fill="#65727d" font-size="8" font-family="SFMono-Regular,Consolas,monospace" text-anchor="middle">NEW</text>
+    <text x="844" y="312" fill="#26313a" font-size="16" font-weight="600" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Pesan B</text><text x="844" y="336" fill="#65727d" font-size="12" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Bertambah sedikit</text>
+    <rect x="200" y="256" width="584" height="112" rx="8" fill="none" stroke="#4f90aa" stroke-width="1.2"/>
+
+    <rect x="40" y="412" width="68" height="12" rx="2" fill="none" stroke="#4f90aa" stroke-opacity="0.55" stroke-width="0.8"/><text x="74" y="421" fill="#276d89" font-size="8" font-family="SFMono-Regular,Consolas,monospace" text-anchor="middle">COMPACT</text>
+    <text x="40" y="460" fill="#26313a" font-size="16" font-weight="600" font-family="PingFang SC,Microsoft YaHei,sans-serif">Setelah pemadatan</text>
+    <text x="40" y="484" fill="#65727d" font-size="12" font-family="PingFang SC,Microsoft YaHei,sans-serif">Prefix berubah</text>
+    <rect x="200" y="408" width="112" height="104" rx="6" fill="#ffffff" stroke="#26313a" stroke-width="1"/>
+    <rect x="212" y="420" width="40" height="12" rx="2" fill="none" stroke="#26313a" stroke-opacity="0.38" stroke-width="0.8"/><text x="232" y="429" fill="#65727d" font-size="8" font-family="SFMono-Regular,Consolas,monospace" text-anchor="middle">BASE</text>
+    <text x="256" y="460" fill="#26313a" font-size="16" font-weight="600" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Sistem &amp; tool</text><text x="256" y="484" fill="#65727d" font-size="12" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Masih sama</text>
+    <rect x="312" y="408" width="264" height="104" rx="8" fill="#fbfaf6"/><rect x="312" y="408" width="264" height="104" rx="8" fill="#4f90aa" fill-opacity="0.10" stroke="#4f90aa" stroke-width="1.2"/>
+    <rect x="324" y="420" width="64" height="12" rx="2" fill="none" stroke="#4f90aa" stroke-opacity="0.55" stroke-width="0.8"/><text x="356" y="429" fill="#276d89" font-size="8" font-family="SFMono-Regular,Consolas,monospace" text-anchor="middle">SUMMARY</text>
+    <text x="444" y="460" fill="#26313a" font-size="16" font-weight="600" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Ringkasan terbaca</text><text x="444" y="484" fill="#65727d" font-size="12" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Menggantikan teks yang lebih lama</text>
+    <rect x="576" y="408" width="208" height="104" rx="6" fill="#ffffff" stroke="#26313a" stroke-width="1"/>
+    <rect x="588" y="420" width="40" height="12" rx="2" fill="none" stroke="#26313a" stroke-opacity="0.38" stroke-width="0.8"/><text x="608" y="429" fill="#65727d" font-size="8" font-family="SFMono-Regular,Consolas,monospace" text-anchor="middle">KEPT</text>
+    <text x="680" y="460" fill="#26313a" font-size="16" font-weight="600" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Pertahankan pesan terbaru</text><text x="680" y="484" fill="#65727d" font-size="12" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Teks asli tetap masuk konteks</text>
+    <rect x="784" y="408" width="120" height="104" rx="6" fill="#ffffff" stroke="#26313a" stroke-width="1"/>
+    <rect x="796" y="420" width="40" height="12" rx="2" fill="none" stroke="#26313a" stroke-opacity="0.38" stroke-width="0.8"/><text x="816" y="429" fill="#65727d" font-size="8" font-family="SFMono-Regular,Consolas,monospace" text-anchor="middle">NEW</text>
+    <text x="844" y="460" fill="#26313a" font-size="16" font-weight="600" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Pesan baru</text><text x="844" y="484" fill="#65727d" font-size="12" font-family="PingFang SC,Microsoft YaHei,sans-serif" text-anchor="middle">Lanjut bekerja</text>
+
+    <line x1="40" y1="536" x2="920" y2="536" stroke="#26313a" stroke-opacity="0.12" stroke-width="0.8"/>
+    <text x="40" y="560" fill="#65727d" font-size="8" font-family="SFMono-Regular,Consolas,monospace" letter-spacing="0.14em">KEY</text>
+    <text x="112" y="560" fill="#65727d" font-size="12" font-family="PingFang SC,Microsoft YaHei,sans-serif">Ronde 2 memiliki prefix yang sama, sehingga bisa mengupayakan cache hit; setelah pemadatan, cache dibangun ulang dari ringkasan.</text>
+  </svg>

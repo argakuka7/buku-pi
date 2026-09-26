@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Ganti domain ini bila situs di-deploy ke alamat lain.
+Sitemap: https://pi-bluebook-id.pages.dev/sitemap.xml

@@ -1,0 +1,9 @@
+/*
+ * Stable stylesheet entrypoint. Keep imports ordered because later layout rules
+ * intentionally refine the shared components defined earlier.
+ */
+@import './styles/foundation.css';
+@import './styles/home.css';
+@import './styles/archive.css';
+@import './styles/releases.css';
+@import './styles/layout.css';

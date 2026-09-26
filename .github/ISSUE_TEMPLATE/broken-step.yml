@@ -1,0 +1,57 @@
+name: Langkah praktik tidak bisa diselesaikan
+description: Laporkan perintah yang gagal, hasil yang tidak konsisten, atau prasyarat yang kurang
+title: "[Praktik] "
+labels: [bug, documentation]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Halaman atau bab
+      description: Isi tautan halaman atau judul bab.
+      placeholder: https://pi-bluebook-id.pages.dev/guide/...
+    validations:
+      required: true
+  - type: textarea
+    id: step
+    attributes:
+      label: Langkah yang terhenti
+      description: Jelaskan sampai langkah mana Anda berjalan, serta perintah atau tindakan yang dipakai.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Hasil yang diharapkan
+      description: Menurut tutorial, apa yang seharusnya Anda lihat?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Hasil sebenarnya
+      description: Tempelkan pesan kesalahan yang perlu; hapus informasi sensitif sebelum mengunggah tangkapan layar.
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: Sistem operasi
+      options:
+        - macOS
+        - Windows Git Bash
+        - Linux
+        - Lainnya
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versi Pi dan tool terkait
+      description: Jika masalah terkait versi, isi nomor versi sebenarnya.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Pemeriksaan sebelum mengirim
+      options:
+        - label: Saya telah menghapus akun, API Key, path pribadi, dan informasi sensitif lainnya.
+          required: true

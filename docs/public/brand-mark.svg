@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Logo Bluebook Pi</title>
+  <desc id="desc">Huruf P berwarna krem di dalam kotak biru tua dengan titik biru muda</desc>
+  <rect width="120" height="120" rx="8" fill="#26313a"/>
+  <path fill="#f8f5ed" d="M22 22h37c20 0 31 10 31 27 0 18-12 29-32 29H42v20H22V22Zm20 18v20h14c9 0 14-3 14-10 0-7-5-10-14-10H42Z"/>
+  <circle cx="87" cy="88" r="10" fill="#4f90aa"/>
+</svg>
