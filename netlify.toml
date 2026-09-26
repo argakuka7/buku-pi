@@ -23,3 +23,10 @@
   [headers.values]
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Netlify selalu memakai /404.html di akar. Aturan ini membuat path /en/ yang hilang
+# memakai halaman 404 versi English. File yang benar-benar ada tetap menang (force = false).
+[[redirects]]
+  from = "/en/*"
+  to = "/en/404.html"
+  status = 404
